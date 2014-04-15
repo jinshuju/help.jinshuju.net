@@ -8,43 +8,35 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
     </head>
     <body>
-       <div class="header">
+      <div class="page_body">      
+         <div class="header">
+            <div class="site">
+              <h1 class="title">
+                <a href="/">{{ site.name }}</a>
+              </h1>
+              <div class="right">
+                <a href="https://jinshuju.net/">返回金数据</a>
+              </div>
+            </div>          
+          </div>
+
           <div class="site">
-            <h1 class="title">
-              <img src="/images/help-logo.png" alt="">
-              <a href="/">{{ site.name }}</a>
-            </h1>
-            <a class="extra" href="/">home</a>  
+            {{ content }}
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-content">
+            版权所有，金数据 2013-2014
           </div>          
         </div>
 
-        <div class="site">
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
 
     </body>
 </html>

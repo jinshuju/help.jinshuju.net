@@ -1,9 +1,28 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="info clearfix">
+  <div class="page_info">
+    <a href="#">{{page.categories}}</a> / {{ page.title }}  
+  </div>
+  <div class="page_search">
+    <form role="search" method="get" class="navbar-form navbar-right " action="https://www.google.com/search">
+      <div class="input-group">
+      <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
+      <input type="hidden" name="sitesearch" value="help2.jinshuju.net">
+      <span class="input-group-btn">
+        <button type="submit" class="search-submit btn btn-default">搜索</button>
+      </span>
+      </div>
+    </form>
+  </div>
+  
+</div>
+
+<div class="article">
+  <h2>{{ page.title }}</h2>
+  <div class="post">
+    {{ content }}
+  </div>  
 </div>

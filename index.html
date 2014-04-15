@@ -3,8 +3,53 @@ layout: default
 title: "金数据帮助中心"
 ---
 
+<div class="quickstart clearfix">
+  <div class="col">
+    <a href="#">
+      <div class="guide">
+        <i class="fa fa-file-text" style="font-size: 40px"></i>
+        <p>创建表单</p>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="#">
+    <div class="guide">
+      <i class="fa fa-share-square-o" style="font-size: 40px"></i>
+      <p>发布表单</p>
+    </div>
+    </a>
+  </div>
+  <div class="last">
+    <a href="#">
+    <div class="guide">
+      <i class="fa fa-table" style="font-size: 40px"></i>
+      <p>分析数据</p>
+    </div>
+  </a>
+  </div>
+</div>
+
+<div class="search">
+  <p>没耐心？试试搜索：</p>
+  <div>
+  <form role="search" method="get" class="navbar-form navbar-right " action="https://www.google.com/search">
+    <div class="input-group">
+    <!-- <input type="search" value="" name="s" class="search-field form-control" placeholder="搜索 金数据帮助中心">
+    <label class="hide">搜索：</label> -->
+    <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
+    <input type="hidden" name="sitesearch" value="help2.jinshuju.net">
+    <span class="input-group-btn">
+      <button type="submit" class="search-submit btn btn-default">搜索</button>
+    </span>
+  </div>
+</form>
+  </div>
+</div>
+
+
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h2>常见问题解答</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
