@@ -16,7 +16,6 @@ body {
   background-color: #FFF;
   font-family: Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
   font-size: 14px;
-  text-align: center;
   color: #333;
 }
 
@@ -42,11 +41,12 @@ a:hover   { color: #4183c4; }
 }
 
 .posts li a {
-  background: transparent url(/images/bullet-li.png) 0 2px no-repeat;
+  background: transparent url(/images/bullet-li.png) 0 6px no-repeat;
   padding-left: 10px;
+  display: block;
 }
 .posts li a:hover {
-  background-position: 2px 2px;
+  background-position: 2px 6px;
 }
 
 .posts span {
@@ -62,7 +62,6 @@ a:hover   { color: #4183c4; }
 /*****************************************************************************/
 
 .site {
-  text-align: justify;
   width: 660px;
   margin: 0px auto;
   line-height: 1.5em;
@@ -114,8 +113,8 @@ a:hover   { color: #4183c4; }
 }
 
 .page_body {
-  height: 100%;
-  margin-bottom: -121px;
+  min-height: 100%;
+  margin-bottom: -120px;
   position: relative;
 }
 .footer {
@@ -123,15 +122,16 @@ a:hover   { color: #4183c4; }
   font-size: 12px;  
   border-top: 1px solid #eee;
   background-color: #fafafa;
-  margin-top: 2em;
   height: 80px;
   position: relative;
   margin-top: 40px;  
   overflow: hidden;
+  text-align: center;
+  bottom: 0px;
 }
 
 .footer-content {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 
@@ -149,7 +149,8 @@ a:hover   { color: #4183c4; }
 }
 
 .post ul, .post ol {
-  margin-left: 1.35em;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .post code {
@@ -215,8 +216,54 @@ a:hover   { color: #4183c4; }
 }
 
 
+.article h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
 
+.article img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
 
+.post ol {
+  counter-reset: li;
+}
+
+.post ol li {
+  position: relative;
+  list-style: none;
+  padding-left: 25px;
+}
+
+.post ul {
+  padding-left: 18px;
+}
+
+.article .post ol>li:before {
+  border-radius: 50px;
+  -o-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background: #ff8533;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #FFF;
+  content: counter(li);
+  counter-increment: li;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 1px 0 0;
+  text-align: center;
+  width: 20px;
+}
 
 
 
