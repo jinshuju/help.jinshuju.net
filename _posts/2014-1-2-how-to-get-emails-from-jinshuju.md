@@ -2,7 +2,8 @@
 layout: post
 title:  "如何确保收到邮件提醒"
 date:   2014-04-15 10:06:17
-categories: ["提醒"]
+category: "提醒"
+tags: FAQ
 ---
 
 小金经常收到用户反馈：明明设置了邮件提醒，却怎么也收不到邮件。

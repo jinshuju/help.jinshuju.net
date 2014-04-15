@@ -48,11 +48,79 @@ title: "金数据帮助中心"
 </div>
 
 
-<div id="home">
+<div id="faq">
   <h2>常见问题解答</h2>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.tags.FAQ %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div>
+
+<div class="categories">
+  <div class="category">
+    <h2>快速学习金数据</h2>
+    <ul class="posts">
+      {% for post in site.categories.quickstart %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="category">
+    <h2>表单编辑以及发布</h2>
+    <ul class="posts">
+      {% for post in site.categories.form %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>数据以及报表</h2>
+    <ul class="posts">
+      {% for post in site.categories.data %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>通知与提醒</h2>
+    <ul class="posts">
+      {% for post in site.categories.notification %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <div class="category">
+    <h2>账户与充值</h2>
+    <ul class="posts">
+      {% for post in site.categories.account %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <div class="category">
+    <h2>商品字段与支付</h2>
+    <ul class="posts">
+      {% for post in site.categories.payment %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>开放API与第三方集成</h2>
+    <ul class="posts">
+      {% for post in site.categories.API %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
 </div>

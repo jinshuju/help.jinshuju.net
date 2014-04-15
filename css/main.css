@@ -271,5 +271,47 @@ a:hover   { color: #4183c4; }
   width: 20px;
 }
 
+#faq {
+  margin-top: 30px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
 
+#faq h2 {
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 5px 15px;
+  border-bottom: 1px solid #ddd;
+}fefefe
 
+#faq .posts {
+  margin-top: 0px;
+}
+
+#faq ul {
+  margin: 0px;
+}
+#faq li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq li a {
+  padding: 5px 15px 5px 25px;
+  background-position: 16px 11px;
+}
+
+#faq li a:hover {
+  background-color: #DCF1FD;
+  padding: 5px 15px 5px 25px;
+  background-position: 18px 11px;
+}
+
+.category h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 15px 0px 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
