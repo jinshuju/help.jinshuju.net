@@ -1,0 +1,4 @@
+name: "金数据帮助中心"
+markdown: redcarpet
+pygments: true
+permalink: /articles/:title
