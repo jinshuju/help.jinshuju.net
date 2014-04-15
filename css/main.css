@@ -221,6 +221,12 @@ a:hover   { color: #4183c4; }
   font-weight: normal;
 }
 
+.article h3 {
+  border-bottom: 1px solid #dddddd;
+  font-weight: normal;
+  color: #325d72;
+}
+
 .article img {
   max-width: 100%;
   border: 1px solid #ccc;
