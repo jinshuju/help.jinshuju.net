@@ -2,7 +2,7 @@
 layout: post
 title:  "免费试用标准版"
 date:   2014-04-19 10:06:17
-category: "账户相关"
+category: "account"
 ---
 
 从现在开始，金数据注册用户只要验证注册邮箱，就可以免费试用标准版三天。

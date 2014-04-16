@@ -2,7 +2,7 @@
 layout: post
 title:  "删除表单"
 date:   2014-04-19 10:06:17
-category: "表单操作"
+category: "form"
 tags: FAQ
 ---
 

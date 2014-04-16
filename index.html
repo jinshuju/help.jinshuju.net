@@ -58,6 +58,30 @@ title: "金数据帮助中心"
 </div>
 
 <div class="categories">
+
+  {% for cat in site.category_list %}
+  <div class="category">
+    <h2>{{ cat[1] }}</h2>
+    <ul class="posts">
+      {% for post in site.posts %}
+      {% if post.category == cat[0] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}
+          {% if post.tags contains 'todo'%} <span style="background-color: #666; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">待认领</span> {% endif %}
+          {% if post.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
+          {% if post.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
+          {% if post.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
+          {{ post.author }}
+          </a>
+          
+        </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  
+  <!--
   <div class="category">
     <h2>快速学习金数据</h2>
     <ul class="posts">
@@ -117,10 +141,10 @@ title: "金数据帮助中心"
   <div class="category">
     <h2>开放API与第三方集成</h2>
     <ul class="posts">
-      {% for post in site.categories.API %}
+      {% for post in site.categories.api %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
-
+  -->
 </div>
