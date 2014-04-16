@@ -171,6 +171,10 @@ a:hover   { color: #4183c4; }
   margin-top: 20px;
 }
 
+.quickstart a:hover {
+  color: #4A7EFF;
+}
+
 .quickstart .col, .quickstart .last {
   float: left;
   width: 206px;
@@ -197,6 +201,7 @@ a:hover   { color: #4183c4; }
   margin-top: 30px;
   border-bottom: 1px solid #ccc;
   font-size: 12px;
+  padding-bottom: 4px;
 }
 
 .info .page_info {
@@ -329,4 +334,25 @@ a:hover   { color: #4183c4; }
   margin: 15px 0px 10px;
   padding-bottom: 4px;
   border-bottom: 1px solid #ddd;
+}
+
+.form-search-home input{
+  padding: 4px;
+  width: 596px;
+  padding-right: 48px;
+}
+
+.form-search-home button {
+  padding: 6px;
+  margin-left: -49px;
+}
+
+.form-search-page input{
+  padding: 2px;
+  padding-right: 40px;
+}
+
+.form-search-page button{
+  padding: 4px;
+  margin-left: -40px;
 }
