@@ -3,7 +3,6 @@ layout: post
 title:  "删除表单"
 date:   2014-04-19 10:06:17
 category: "form"
-tags: faq
 ---
 
 当您不再需要某个表单，为了不让它占用存储空间和数据量，您可以删除它。

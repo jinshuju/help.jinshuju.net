@@ -235,6 +235,18 @@ a:hover   { color: #4183c4; }
   border: 1px solid #ccc;
 }
 
+.article td, .article th {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+.article th {
+  background-color: #f7f7f7;
+}
+.article a:hover {
+  text-decoration: underline;
+}
+
 .post ol {
   counter-reset: li;
 }
