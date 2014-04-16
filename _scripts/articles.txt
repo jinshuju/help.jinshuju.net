@@ -36,6 +36,6 @@
 使用扩展属性记录隐藏信息:extended-attr:如何开启，使用方法:api:M
 数据推送API:http-push:数据推送API:api:M
 金数据API介绍:api-intro:基本介绍:api:M
-获取API访问Key:Secret:api-auth:如何获取:api:M
+获取API访问Key/Secret:api-auth:如何获取:api:M
 表单API:form-api:获取表单定义:api:M
 数据API:entry-api:填写数据:api:M

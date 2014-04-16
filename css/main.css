@@ -112,20 +112,13 @@ a:hover   { color: #4183c4; }
   color: #aaa;
 }
 
-.page_body {
-  min-height: 100%;
-  margin-bottom: -120px;
-  position: relative;
-}
 .footer {
   color: #666;
   font-size: 12px;  
   border-top: 1px solid #eee;
   background-color: #fafafa;
   height: 80px;
-  position: relative;
   margin-top: 40px;  
-  overflow: hidden;
   text-align: center;
   bottom: 0px;
 }

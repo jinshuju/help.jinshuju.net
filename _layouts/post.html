@@ -4,7 +4,12 @@ layout: default
 
 <div class="info clearfix">
   <div class="page_info">
-    {{page.categories}} <i class="fa fa-angle-right"></i> {{ page.title }}  
+    {% for cat in site.category_list %}
+    {% if cat[0] == page.category %}
+    {{cat[1]}}
+    {% endif %}
+    {% endfor %}
+    <i class="fa fa-angle-right"></i> {{ page.title }}  
   </div>
   <div class="page_search">
     <form role="search" method="get" class="navbar-form navbar-right " action="https://www.google.com/search">

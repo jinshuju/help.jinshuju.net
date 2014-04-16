@@ -51,7 +51,7 @@ title: "金数据帮助中心"
 <div id="faq">
   <h2>常见问题解答</h2>
   <ul class="posts">
-    {% for post in site.tags.FAQ %}
+    {% for post in site.tags.faq %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
@@ -63,15 +63,15 @@ title: "金数据帮助中心"
   <div class="category">
     <h2>{{ cat[1] }}</h2>
     <ul class="posts">
-      {% for post in site.posts %}
-      {% if post.category == cat[0] %}
+      {% for page in site.posts %}
+      {% if page.category == cat[0] %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}
-          {% if post.tags contains 'todo'%} <span style="background-color: #666; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">待认领</span> {% endif %}
-          {% if post.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
-          {% if post.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
-          {% if post.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
-          {{ post.author }}
+          <a href="{{ page.url }}">{{ page.title }}
+          {% if page.tags contains 'todo'%} <span style="background-color: #666; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">待认领</span> {% endif %}
+          {% if page.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
+          {% if page.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
+          {% if page.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
+          {{ page.author }}
           </a>
           
         </li>
@@ -80,71 +80,5 @@ title: "金数据帮助中心"
     </ul>
   </div>
   {% endfor %}
-  
-  <!--
-  <div class="category">
-    <h2>快速学习金数据</h2>
-    <ul class="posts">
-      {% for post in site.categories.quickstart %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  
-  <div class="category">
-    <h2>表单编辑以及发布</h2>
-    <ul class="posts">
-      {% for post in site.categories.form %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
 
-  <div class="category">
-    <h2>数据以及报表</h2>
-    <ul class="posts">
-      {% for post in site.categories.data %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="category">
-    <h2>通知与提醒</h2>
-    <ul class="posts">
-      {% for post in site.categories.notification %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-
-  <div class="category">
-    <h2>账户与充值</h2>
-    <ul class="posts">
-      {% for post in site.categories.account %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-
-  <div class="category">
-    <h2>商品字段与支付</h2>
-    <ul class="posts">
-      {% for post in site.categories.payment %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="category">
-    <h2>开放API与第三方集成</h2>
-    <ul class="posts">
-      {% for post in site.categories.api %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  -->
 </div>
