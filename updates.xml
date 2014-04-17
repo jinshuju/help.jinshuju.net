@@ -1,0 +1,14 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+  {% for page in site.categories.update %}
+  <update>
+    <date>{{ page.date | date: "%F"}}</date>
+    <title>{{ page.title }}</title>
+    <url>{{ page.url }}</url>
+    <content>{{ page.content | xml_escape }}</content>  
+  </update>
+  {% endfor %}
+</updates>
