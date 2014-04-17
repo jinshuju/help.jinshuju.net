@@ -5,7 +5,7 @@ date:   2014-03-01 12:12:12
 category: api
 ---
 
-除了[数据推送](/http-push.html)API之外，表单和数据以及未来的所有的API都需要恰当的验证才能访问。目前，金数据仅支持HTTP Basic的验证方式。
+除了[数据推送](http-push.html)API之外，表单和数据以及未来的所有的API都需要恰当的验证才能访问。目前，金数据仅支持HTTP Basic的验证方式。
 
 获得权限的用户，可以在个人设置页面的API中，找到自己的API Key和Secret。
 

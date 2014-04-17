@@ -223,9 +223,14 @@ a:hover   { color: #4183c4; }
   border-bottom: 1px solid #dddddd;
   font-weight: normal;
   color: #325d72;
+  margin: 40px 0px 20px 0px;
 }
 
-.article h5 {
+.article h4 {
+  font-size: 16px;
+}
+
+.article h5, .article h6 {
   background-color: #ffdd87;
   border: #ffce54;
   color: #8a6d3b;
@@ -233,6 +238,13 @@ a:hover   { color: #4183c4; }
   font-weight: normal;
   padding: 15px;
   border-radius: 4px;
+  margin: 10px 0px;
+}
+
+.article h6 {
+  background-color: #b9df90;
+  border: #a0d468;
+  color: #3c763d;
 }
 
 .article img {
@@ -263,7 +275,14 @@ a:hover   { color: #4183c4; }
 }
 
 .post ul {
-  padding-left: 18px;
+  padding-left: 10px;
+}
+
+.article ul li {
+  background: transparent url(/images/bullet-li.png) 0 0.4em no-repeat;
+  padding-left: .7em;
+  margin: 5px 0;
+  list-style: none;
 }
 
 .article .post ol>li:before {

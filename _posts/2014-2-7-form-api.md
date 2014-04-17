@@ -21,7 +21,7 @@ category: api
 
 ## 使用方法 
 
-首先确保您有[API访问](/auth.html)的能力。获得api_key/api_secret之后，即可开始获取表单的JSON定义。
+首先确保您有[API访问](api-auth.html)的能力。获得api_key/api_secret之后，即可开始获取表单的JSON定义。
 
 通过curl来访问：
 
