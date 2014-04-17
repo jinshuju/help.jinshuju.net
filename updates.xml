@@ -7,7 +7,7 @@ layout: none
   <update>
     <date>{{ page.date | date: "%F"}}</date>
     <title>{{ page.title }}</title>
-    <url>{{ page.url }}</url>
+    <url>{{site.url}}{{ page.url }}</url>
     <content>{{ page.content | xml_escape }}</content>  
   </update>
   {% endfor %}
