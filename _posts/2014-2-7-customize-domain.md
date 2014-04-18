@@ -5,7 +5,7 @@ date:   2014-03-12 12:12:12
 category: account
 tags: todo H
 
-author: 
+author: roamin9
 ---
 
 TODO: 绑定自定义域名，好处，如何做
