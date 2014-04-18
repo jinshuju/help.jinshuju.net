@@ -11,16 +11,16 @@ author: Sahara
 当创建包含多个字段的表单时，您可以选择调整每一个字段占整行的宽度比例，从原来的纵向排列，修改成由多个字段组成的横向排列方式。这样板式更加美观，也更易于填表者阅读。目前高级排版功能限付费用户使用。
 
 1. 创建一个表单，在上面添加一些字段，比如姓名，性别，文化程度，出生日期等等。
-![表单编辑](/images/customize-layout-1.png)
+  ![表单编辑](/images/customize-layout-1.png)
 
-2. 在每个字段右边的编辑区域高亮处，对其进行设置，比如，勾选“宽度占用整行的1/4”，当然，您也可以选择2/4或者3/4。
-![宽度设置](/images/customize-layout-2.png)
+2. 在每个字段右边的编辑区域高亮处，对其进行设置，比如，勾选“宽度占用整行的1/4”，当然，您也可以选择2/4或者3/4。 
+  ![宽度设置](/images/customize-layout-2.png)
 
 3. 点击保存，访问一下发布出去的表单，所有字段都按照设定好的宽度横向排列啦。
-![横向展示字段](/images/customize-layout-3.png)
+  ![横向展示字段](/images/customize-layout-3.png)
 
 4. 如果想让某个字段另起一行重新排列，您只需要在字段编辑区域勾选“新起一行”。
-![新起一行](/images/customize-layout-4.png)
+  ![新起一行](/images/customize-layout-4.png)
 
 5. 发挥您的想象，现在就开始体验排版功能吧！
-![排版预览](/images/customize-layout-5.png)
+  ![排版预览](/images/customize-layout-5.png)
