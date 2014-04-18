@@ -3,9 +3,9 @@ layout: post
 title:  "使用字段规则"
 date:   2014-04-03 12:12:12
 category: form
-tags: todo M
+tags: M
 
-author: Sahara
+author: 
 ---
 
 当表单需要实现选择了A就显示B的逻辑时，您可以使用字段规则。比如，制作一份意见反馈表，如果选择了“报告一个问题”，就显示“问题截图”字段；如果选择了“需要新功能”，就显示“需求描述”字段。
