@@ -3,8 +3,6 @@ layout: post
 title:  "支付宝集成常见问题"
 date:   2014-03-05 12:12:12
 category: payment
-
-author: warmwind
 ---
 
 当您已经在金数据中绑定了支付宝信息后（[如何绑定](alipay.html)），当用户提交表单时就可以跳转到支付页面。如果信息有误，会出现错误界面，下面来介绍常见的错误信息。
