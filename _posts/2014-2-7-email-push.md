@@ -21,9 +21,9 @@ category: notification
   *  根据表单中某个字段的数值
     ![](/images/email-push-condition.png)
 
-2. 设置发送时间
+2. 设置发送时间，
   * 立即发送
-  * 在某个时间发送，这个功能需要拓展版或者企业版才能使用
+  * 在某个时间发送，这个功能需要拓展版或者企业版才能使用，可参看[这里](scheduler.html)
     ![](/images/email-push-when.png)
 
 3. 设置接受者
