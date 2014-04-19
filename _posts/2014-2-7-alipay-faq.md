@@ -8,15 +8,15 @@ category: payment
 当您已经在金数据中绑定了支付宝信息后（[如何绑定](alipay.html)），当用户提交表单时就可以跳转到支付页面。如果信息有误，会出现错误界面，下面来介绍常见的错误信息。
 
 ### 商家不存在
-![](/images/alipay_faq_seller_not_exist.png)
+![](/images/alipay-faq-seller-not-exist.png)
 这通常是由于您填写支付宝邮箱不正确引起的，请确认在金数据内设置的支付宝邮箱是是您申请支付宝商家账户时的邮箱，而不要写成金数据的登录邮箱。
 
 ### 合作伙伴信息错误
-![](/images/alipay_faq_illegal_partner.png)
+![](/images/alipay-faq-illegal-partner.png)
 这通常是由于您的API或者KEY不正确引起的，请确认在金数据内设置的API和KEY与您在支付宝后台获得的完全一致。
 
 ### 接口类型错误
-![](/images/alipay_faq_illegal_partner_exterface.png)
+![](/images/alipay-faq-illegal-partner-exterface.png)
 这通常是由于您接口类型设置不正确引起的，请确认在金数据内设置的接口类型与您在支付宝申请的类型完全一致。例如您在支付宝申请的是担保交易，在金数据内也不许选择担保交易，而不能选择即时到帐或者双功能收款。
 
 
