@@ -32,9 +32,9 @@ category: notification
     ![](/images/sms-push-who.png)
 
 4. 设置短信末尾的签名
-  您可以填写所在机构的名称等，建议3-5个汉字
+  * 您可以填写所在机构的名称等，建议3-5个汉字
     ![](/images/sms-push-signature.png)
 
 5. 设置短信内容
-  您可以使用数据代码来自定义短信内容，代码会在发送时自动替换为数据内容
+  * 您可以使用数据代码来自定义短信内容，代码会在发送时自动替换为数据内容
     ![](/images/sms-push-what.png)
