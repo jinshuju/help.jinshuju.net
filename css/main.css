@@ -418,3 +418,20 @@ a.update-link {
 .update-link:hover {
   color: #ff8000;
 }
+
+.contact-human h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.contacts .contact {
+  width: 33%;
+  float: left;
+}
+
+.contacts .explain {
+  color: #666;
+}
+.contacts .channel {
+  font-weight: bold;
+}
