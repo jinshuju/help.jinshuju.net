@@ -3,10 +3,7 @@ layout: post
 title:  "创建第一个表单"
 date:   2014-04-08 12:12:12
 category: quickstart
-
 ---
-
-#创建第一个表单
 
  1. **注册金数据账号**，同时你也可以使用QQ或微博等账号直接登录，如果您已经有金数据账号，点击登录金数据。
   ![表单编辑](/images/create-form-1.png)
