@@ -3,9 +3,10 @@ layout: post
 title:  "发布表单"
 date:   2014-04-07 12:12:12
 category: quickstart
-tags: todo M
-
-author: tanjia
 ---
+
+创建好表单后，在**发布**页面您可以知道这个表单的地址。
+我们提供多种发布方式，您可以通过直接访问地址，二维码发布，嵌入网页，分享社交网站等方式，发给给其他需要填写表单的人。
+![](/images/publish-form.png)
 
 TODO: 帮助用户找到发布页面，获得表单链接并发布出去
