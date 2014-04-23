@@ -11,13 +11,13 @@ category: quickstart
 **充值步骤**
 
 1. 登录金数据选择需要短信提醒功能的表单，点击“设置”选择“推送提醒”。在这个界面选择“购买短信”。
-![申请发票](/images/recharge-1.png) 
+![充值](/images/recharge-1.png) 
 
 2. 根据个人需求选择购买短信数量，点击“立即支付”。  
-![申请发票](/images/recharge-2.png) 
+![充值](/images/recharge-2.png) 
 
 3. 通过第三方支付平台“支付宝”购买短信数量。
-![申请发票](/images/recharge-3.png) 
+![充值](/images/recharge-3.png) 
 
 4. 购买成功后，您可以在个人中心－交易中心查看交易记录。
-![申请发票](/images/recharge-4.png)
+![充值](/images/recharge-4.png)
