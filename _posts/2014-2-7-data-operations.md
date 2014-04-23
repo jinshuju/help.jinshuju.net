@@ -17,14 +17,14 @@ category: data
 
 ![edit_1](/images/data-operations-edit_1.png)
 
-在修改完成之后，选择提交即可完成该数据的修改。
-
-![edit_2](/images/data-operations-edit_2.png)
-
-如果有需要的话，您还可以手动对该表单添加一些数据。
+如果有需要的话，您还可以手动对该表单**新增**一些数据。
 
 ![add_1](/images/data-operations-add_1.png)
 
-添加数据的页面和编辑数据的页面类似，添加完成后，提交即可。
+添加数据的页面和编辑数据的页面类似。
 
 ![add_2](/images/data-operations-add_2.png)
+
+在数据填写完成后，选择提交即可。
+
+![edit_2](/images/data-operations-edit_2.png)
