@@ -2,13 +2,8 @@
 layout: post
 title:  "应用样式让表单更美观"
 date:   2014-04-04 12:12:12
-category: form
-tags: todo L
-
-author: wzhao
+category: quickstart
 ---
-
-TODO: 应用样式、颜色、字体等，包括手机以及预览功能
 
 1. 首先您先登录金数据，进入个人中心,选择您要美化的表单。
 ![样式](/images/style-1.png) 
