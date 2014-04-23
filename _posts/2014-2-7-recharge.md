@@ -2,10 +2,7 @@
 layout: post
 title:  "充值"
 date:   2014-03-14 12:12:12
-category: account
-tags: todo M
-
-author: wzhao
+category: quickstart
 ---
 
 **短信提醒说明**  
