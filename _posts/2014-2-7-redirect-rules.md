@@ -12,11 +12,17 @@ category: form
 ### 例子
 
 1. 进入表单编辑页面，添加一个单项选择字段
+
    ![create_field](/images/redirects-rules-create_field.png)
+   
 2. 保存表单
+
 3. 进入规则页面，为选项添加跳转规则，保存
+
    ![create_rules](/images/redirects-rules-create_rules.png)
+   
 4. 来看看效果
+
    ![results](/images/redirects-rules-result.gif)
 
 
