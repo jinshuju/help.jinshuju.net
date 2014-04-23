@@ -11,9 +11,9 @@ category: account
 
 目前的功能：
 
-  * 自定义域名仅支持通过http来访问
-  * 绑定独立域名后，填写者在提交成功后，不会再看到“注册/登录金数据”的入口。
-  * “xxx.您的域名.com”中的“xxx”可以任意定制，例如，diaocha，baoming等等更契合您企业业务的域名。
+* 自定义域名仅支持通过http来访问
+* 绑定独立域名后，填写者在提交成功后，不会再看到“注册/登录金数据”的入口。
+* “xxx.您的域名.com”中的“xxx”可以任意定制，例如，diaocha，baoming等等更契合您企业业务的域名。
   
 ### 操作
 
@@ -29,7 +29,7 @@ category: account
 
 3. 如果您已经成功设置域名指向，请耐心等待域名指向生效。不同的域名服务商，生效时长不相同，一般最长不超过24小时。检查生效方法：点Windows桌面左下角的“开始”，在搜索框中输入“cmd”点击运行，然后输入命令“ping xxx.您的域名.com”，若能成功获得IP地址，即为生效。
 
-![check](/imags/customize-domain-check.png)
+![check](/images/customize-domain-check.png)
 
 4. 进入个人中心，进行域名绑定，输入您之前设置的域名以及备案号
 
@@ -41,7 +41,7 @@ category: account
 
 5. 我们来看看效果，通过我们刚才绑定的域名来访问表单
 
-![result](/images/customize-domian-result.png)
+![result](/images/customize-domain-result.png)
 
 
 
