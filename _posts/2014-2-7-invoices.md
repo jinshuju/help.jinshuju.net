@@ -2,10 +2,7 @@
 layout: post
 title:  "申请发票"
 date:   2014-03-11 12:12:12
-category: account
-tags: todo H
-
-author: wzhao
+category: quickstart
 ---
 
 **发票说明**
@@ -20,4 +17,4 @@ author: wzhao
 ![申请发票](/images/invoices-1.png)
 2. 点击申请发票，填写相关发票信息。（如下面）  
 ![申请发票](/images/invoices-2.png)
-3. 确认无误后，点击提交发票申请。我们会在十个工作日内发票寄出。谢谢！
+3. 确认无误后，点击提交发票申请,我们会在十个工作日内发票寄出。非常谢谢！
