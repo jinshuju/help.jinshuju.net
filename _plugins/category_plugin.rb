@@ -5,7 +5,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = 'index.html'
+      @name = "#{category}.html"
  
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
@@ -24,7 +24,7 @@ module Jekyll
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'categories'
         site.categories.keys.each do |category|
-          write_category_index(site, File.join(dir, category), category)
+          write_category_index(site, dir, category)
         end
       end
     end
