@@ -2,7 +2,7 @@
 layout: post
 title:  "充值"
 date:   2014-03-14 12:12:12
-category: quickstart
+category: account
 ---
 
 **短信提醒说明**  

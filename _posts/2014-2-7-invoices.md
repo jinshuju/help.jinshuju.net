@@ -2,7 +2,7 @@
 layout: post
 title:  "申请发票"
 date:   2014-03-11 12:12:12
-category: quickstart
+category: account
 ---
 
 **发票说明**

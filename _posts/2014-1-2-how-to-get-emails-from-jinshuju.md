@@ -2,7 +2,7 @@
 layout: post
 title:  "如何确保收到邮件提醒"
 date:   2014-04-15 10:06:17
-category: "提醒"
+category: notification
 tags: faq
 ---
 
