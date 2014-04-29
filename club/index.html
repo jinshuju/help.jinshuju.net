@@ -1,0 +1,19 @@
+---
+layout: default
+title: "小金俱乐部"
+---
+
+<h1 style="color:#333;font-weight: normal;margin: 40px 0px 10px;">小金俱乐部</h1>
+<p style="color:#999">不见不散~</p>
+
+<div class="updates">
+  {% for page in site.categories.club %}
+  <div class="update clearfix">
+    <h3>{{ page.date | date: "%F"}}: {{ page.title }}
+    <a href="{{ page.url }}" class="update-link"><i class="fa fa-external-link"></i></a>
+    </h3>
+    <div class="update-content article">{{ page.content }}</div>
+  </div>
+  {% endfor %}
+
+</div>
