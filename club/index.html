@@ -10,9 +10,8 @@ title: "小金俱乐部"
   {% for page in site.categories.club %}
   <div class="update clearfix">
     <h3>{{ page.date | date: "%F"}}: {{ page.title }}
-    <a href="{{ page.url }}" class="update-link"><i class="fa fa-external-link"></i></a>
+    	<a href="{{ page.url }}" class="update-link" target="_blank"><i class="fa fa-external-link"></i></a>
     </h3>
-    <div class="update-content article">{{ page.content }}</div>
   </div>
   {% endfor %}
 
