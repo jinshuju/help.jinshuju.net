@@ -11,8 +11,9 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['category'] = category
  
-      category_title_prefix = site.config['category_title_prefix'] || 'Category: '
-      self.data['title'] = "#{category_title_prefix}#{category}"
+      category_title_prefix = site.config['category_title_prefix'] || '文章分类: '
+      display_category = site.config['category_dict'][category]
+      self.data['title'] = "#{category_title_prefix}#{display_category}"
     end
   end
  
