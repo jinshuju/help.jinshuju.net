@@ -13,3 +13,5 @@ category_dict:
   account: "账户与充值"
   payment: "商品字段以及支付"
   api: "开放API与集成"
+gems:
+  - jemoji

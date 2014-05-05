@@ -202,6 +202,7 @@ a:hover   { color: #4183c4; }
   border-bottom: 1px solid #ccc;
   font-size: 12px;
   padding-bottom: 4px;
+  position: relative;
 }
 
 .info .page_info {
@@ -211,6 +212,23 @@ a:hover   { color: #4183c4; }
 
 .info .page_search {
   float: right;
+}
+
+.info .category-posts h3 {
+  border-bottom: 1px solid #ccc;
+}
+
+.info .category-posts {
+  position: absolute;
+  left: 0px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0px 10px 0px 10px;
+  z-index: 10;
+  box-shadow: 2px 2px 4px #ddd;
+  border-radius: 4px;
+  top: 26px;
+  display: none;
 }
 
 

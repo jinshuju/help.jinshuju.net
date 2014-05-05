@@ -4,8 +4,18 @@ layout: default
 
 <div class="info clearfix">
   <div class="page_info">
-    <a href="/categories/{{ page.category}}.html">{{site.category_dict[page.category] }}</a>
+    <a href="#categories-{{ page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>
     <i class="fa fa-angle-right"></i> {{ page.title }}  
+  </div>
+  <div class="category-posts">
+    <h3>分类文章</h3>
+    <ul class="posts">
+      {% for page in site.categories.[page.category] %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>        
+      </li>
+    {% endfor %}
+    </ul>
   </div>
   <div class="page_search">
     <form role="search" method="get" class="form-search-page" action="https://www.google.com/search">
@@ -23,3 +33,19 @@ layout: default
     {{ content }}
   </div>  
 </div>
+
+<script type="text/javascript">
+  $(function(){
+    $("body").click(function() {
+      $(".category-posts").hide();
+    })
+    $(".category-link").click(function(e){
+      $(".category-posts").toggle();
+      e.stopPropagation();
+      event.preventDefault();
+    })
+    $(".category-posts").click(function() {
+      e.stopPropagation();
+    })
+  })
+</script>
