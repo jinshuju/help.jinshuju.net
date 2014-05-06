@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="category">
-  <h2>{{ site.category_dict.[page.the_category] }}</h2>
+  <h2>{{ site.category_dict.[page.category] }}</h2>
   <ul class="posts">
-    {% for page in site.categories.[page.the_category] %}
+    {% for page in site.categories.[page.category] %}
       <li>
         <a href="{{ page.url }}">{{ page.title }}</a>        
       </li>
