@@ -10,7 +10,7 @@ category: notification
 ### 进入设置
 
 依次点击：设置 -> 推送提醒 -> 添加短信提醒
-![](/images/sms-push-add-btn.png)
+![](/images/sms-push-add-btn-1.png)
 
 ### 详细设置
 弹出的窗口中可以进行详细的设置
