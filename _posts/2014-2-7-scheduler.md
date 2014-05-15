@@ -21,10 +21,10 @@ category: notification
 
 ### 任务查看
 * 查看设定规则
-![](/images/scheduler-setting.png)
+![](/images/scheduler-setting-1.png)
 * 查看计划中任务
 当有数据提交时，如果满足触发条件，您就会在邮件发送历史中找到一条计划中的任务
-![](/images/scheduler-task.png)
+![](/images/scheduler-task-1.png)
 
 ### 取消任务
 当规则改变，或者您手动撤销时，计划中的任务就会全部失效。

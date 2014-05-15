@@ -12,5 +12,5 @@ category: notification
 
 ### 此外还可以通过表单设置页面进行设置，进入表单设置
 
-依次点击：设置 -> 推送提醒，在右侧“新增数据邮件提醒”项后选择“开启”或“关闭”该功能。
-![](/images/new-record-notification-form-setting.png)
+依次点击：设置 -> 推送提醒，在系统邮件自动推送提醒栏选择“开启”或“关闭”该功能。
+![](/images/new-record-notification-form-setting-1.png)

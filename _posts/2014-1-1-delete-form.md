@@ -10,6 +10,6 @@ category: "form"
 1. 进入我的表单，找到需要删除的表单，进入表单的详情页面。
 ![删除表单](/images/delete-form-1.png)
 
-2. 在表单概述这里，有“更多操作”，点击删除按钮。
-![删除表单](/images/delete-form-2.png)
+2. 在表单概述页面，点击“删除表单”按钮。
+![删除表单](/images/delete-form-3.png)
 
