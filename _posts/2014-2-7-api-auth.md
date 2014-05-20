@@ -9,7 +9,7 @@ category: api
 
 获得权限的用户，可以在个人设置页面的API中，找到自己的API Key和Secret。
 
-![API Key](/images/api_02.jpg)
+![API Key](/images/api_02_new.png)
 
 每次进行API调用时，都需要将API Key&Secret放到HTTP请求的Header中。例如，使用curl来获得某个表单的定义：
 
