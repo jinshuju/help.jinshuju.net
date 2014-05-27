@@ -1,6 +1,6 @@
 exclude: ["CNAME", "Gemfile", "Gemfile.lock"]
 name: "金数据帮助中心"
-url: http://help2.jinshuju.net/
+url: http://help.jinshuju.net/
 markdown: redcarpet
 pygments: true
 permalink: /articles/:title.html
