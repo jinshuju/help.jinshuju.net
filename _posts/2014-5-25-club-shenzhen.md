@@ -32,7 +32,7 @@ Michael做的第一个演讲是金数据的过去和未来，以及一些只想�
 ### 蜡笔小新性格趣味测试
 哈哈，我不多说，你们扫一下这个二维码来测吧。你们也可以猜猜金数据团队内部最多的是哪位角色
 
-![test](/images/club-shenzhen-testqrcode.png)
+![test](/images/club-shenzhen-testingqrcode.png)
 
 ### 用料采购表
 传统的餐饮行业，充满油烟、食物香味，或手工或打印的下料单在这样热热闹闹的后厨被混淆、抹油、甚至是以往。
