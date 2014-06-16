@@ -473,3 +473,25 @@ a.club-link {
 .contacts .channel {
   font-weight: bold;
 }
+
+.category {
+  float: left;
+  width: 45%;
+  margin-right: 30px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;  
+}
+.clearfix:after {
+  clear:both;
+}
+.search {
+  margin-bottom: 20px;
+}
