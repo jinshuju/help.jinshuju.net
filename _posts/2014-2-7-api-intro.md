@@ -22,7 +22,8 @@ API访问规则：
 
 ### 数据推送
 
-开启这个API之后，金数据会在收到对应表单数据的时候，将数据通过HTTP POST推送到指定的URL。[查看详情](http-push.html)
+开启这个API之后，接下来需要在设置－数据提交页面填写推送到的地址。金数据会在收到对应表单数据的时候，将数据通过HTTP POST推送到指定的URL。[查看详情](http-push.html)
+![](/images/api-intro.png)
 
 ### 表单
 
