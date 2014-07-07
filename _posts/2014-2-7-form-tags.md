@@ -3,7 +3,7 @@ layout: post
 title: 使用标签管理表单
 date:   2014-07-03 12:12:12
 category: form
-published: false
+published: true
 ---
 
 您可以使用标签来管理自己的表单。  
