@@ -495,3 +495,8 @@ a.club-link {
 .search {
   margin-bottom: 20px;
 }
+
+.video {
+  float: left;
+  margin: 15px 30px 15px 0px;
+}

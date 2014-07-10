@@ -1,0 +1,26 @@
+---
+layout: default
+title: "视频"
+videos: 
+  - 
+    id: XNTQwMDk0ODYw
+    title: 视频帮助标题1
+  - 
+    id: XNzE0Nzk3NjEy
+    title: 第二个视频。
+  -
+    id: XNTExODIyOTgw
+    title: 使用Excel导入
+---
+
+<h1>视频帮助</h1>
+
+<div class="videos clearfix">
+  {% for v in page.videos %}
+  <div class="video">
+    <p>{{ v.title }}</p>
+    <embed src="http://player.youku.com/player.php/sid/{{ v.id }}/v.swf" allowFullScreen="true" quality="high" width="300" height="250" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+    
+  </div>
+  {% endfor %}
+</div>
