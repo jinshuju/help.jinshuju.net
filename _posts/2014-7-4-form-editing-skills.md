@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "删除表单"
+title:  "那些你不可错过的金数据使用小技巧"
 date:   2014-04-19 10:06:17
 category: "quickstart"
 ---
