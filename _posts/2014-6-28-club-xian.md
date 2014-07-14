@@ -35,17 +35,17 @@ category: club
 
 设计问卷是一门学问，好的问题设置能够帮助你优化数据结构，让数据报表更具有说服力。针对不同人群，应该有不同的问题设置。让一个每天看韩剧的软妹子告诉你，目前最红火的户外商品是什么，显然是不太科学的（此处省略200字）。
 扫描这个二维码，你可以看到专业的问卷设计专家如何优化自己的表单。
-![xian](/images/club-xi'an-wenjuan.jpg)
+![xian](/images/club-xi'an-wenjuan.png)
 
 ### 社区成员运营
 
 一个成熟的UGC社区，应该能够满足用户的求知欲和表达欲。在微信的平台，信息传递的方式是一对一，碎片化。大量的信息充斥在各类平台，如果你的用户不愿意在让人揪心的网络热词里搜寻一条有价值的信息，可以尝试用两个表单来管理用户的问题和反馈。
-![xian](/images/club-xi'an-question.jpg) ![xian](/images/club-xi'an-anwser.jpg)
+![xian](/images/club-xi'an-question.png) ![xian](/images/club-xi'an-anwser.png)
 
 ### 产品资料微信查询
 
 在PC产品体验店，产品相关信息多半印在小册子或者传单上。当客人到店时，销售人员一拥而上进行产品讲解。这是传统的营销引导，而新的体验正伴随新通讯方式产生。尝试设想一下，将这样的一个二维码配在电子产品旁边，通过微信扫描自助查询。既减轻销售人员的工作，也免去了客户随时“被跟踪”的压力。
-![xian](/images/club-xi'an-product.jpg)
+![xian](/images/club-xi'an-product.png)
 
 ###我们想要听到你的声音
 ![workshio](/images/club-xi'an-5.jpg)
