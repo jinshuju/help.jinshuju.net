@@ -5,7 +5,6 @@ markdown: redcarpet
 pygments: true
 permalink: /articles/:title.html
 safe: true
-category_list: [[quickstart, "快速学习金数据"], [form, "表单编辑以及发布"], [data, "数据以及报表"], [notification, "通知与提醒"], [account, "账户与充值"], [payment, "商品字段以及支付"], [api, "开放API与集成"]]
 category_dict:
   quickstart: "快速学习金数据"
   form: "表单编辑以及发布"

@@ -53,8 +53,10 @@ title: "金数据帮助中心"
 -->
 
 <div class="categories clearfix">
-
-  {% for cat in site.category_list %}
+  <div class="category">
+    <a href="/categories/wechat.html" ><img style="border:none;margin-top:20px;" src="/images/wechat-pack.jpg" alt="" /></a>
+  </div>
+  {% for cat in site.category_dict %}
   <div class="category">
     <h2>{{ cat[1] }}</h2>
     <ul class="posts">
