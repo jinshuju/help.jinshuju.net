@@ -474,7 +474,7 @@ a.club-link {
   font-weight: bold;
 }
 
-.category {
+.categories .category {
   float: left;
   width: 45%;
   margin-right: 30px;
