@@ -10,7 +10,7 @@ category_dict:
   form: "表单编辑以及发布"
   data: "数据以及报表"
   notification: "通知与提醒"
-  account: "账户与充值"
+  account: "充值、套餐与增值服务"
   payment: "商品字段和支付"
   api: "API与集成"
 gems:

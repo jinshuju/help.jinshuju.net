@@ -60,7 +60,7 @@ category: site
 * `form`, 表单编辑以及发布
 * `data`, 数据以及报表
 * `notification`, 通知与提醒
-* `account`, 账户与充值
+* `account`, 充值、套餐与增值服务
 * `payment`, 商品字段和支付
 * `api`, API与集成
 * `update`, 新功能更新。这篇文章的文件名和里面的时间必须真实。同时updates.xml中也会有对应的介绍，用于向金数据应用提供内容输入。
