@@ -3,6 +3,7 @@ layout: post
 title:  "批量删除数据"
 date:   2014-04-19 10:06:17
 category: data
+published: false
 ---
 
 在收到垃圾数据时，一条一条删除非常耗费时间。对于不合格的数据，您只需要批量删除，即可节省大量的时间和精力。
