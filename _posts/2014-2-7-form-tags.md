@@ -1,46 +1,33 @@
 ---
 layout: post
-title: 使用标签管理表单
-date:   2014-07-03 12:12:12
+title: "使用标签管理表单"
+date:   2014-09-26 12:00:04
 category: form
-published: true
+tags: edited
 ---
 
-您可以使用标签来管理自己的表单。  
-(如果之前使用过分组功能，已帮您转成相同的标签名，可以放心使用！)
+表单太多，不好寻找怎么办？不要担心，您可以使用标签来管理您的表单。
+
+###### 如果您之前使用过分组功能，我们已帮您转成相同的标签名，请放心使用！
 
 ![](/images/tags-overview.png)
 
 ### 为表单添加标签
 
-通过表单的设置弹出框，您可以为表单添加一个标签。
+将光标悬停在想要设置标签的表单上，图标右下角会出现设置按钮，点击“添加/修改标签”，您可以为表单添加一个标签。
   ![](/images/tags-create-tag.png)
 
 添加成功后，会在“我的表单”页看到新创建的标签，并且点击后可以看到对应的表单。
   ![](/images/tags-create-tag-success.png)
 
-### 所有标签的展示
+### 查看所有标签
 
-添加的标签会显示在“我的表单”页顶部，如下图：
-  ![](/images/tags-many-tags.png)
-
-更多的标签名称会被收起在“更多”的选项里：
-  ![](/images/tags-more-tags.png)
+新添加的标签会显示在标签栏，更多的标签名会被收起在“更多”的选项里：
+  ![](/images/tags-all-tags.png)
 
 ### 编辑所有标签
 
-点击“编辑所有标签”，会弹出编辑窗口：
+在“更多”的选项中，点击“编辑所有标签”，会弹出编辑窗口：
   ![](/images/tags-edit-all-link.png)  
+您可以在标签编辑窗口中双击标签改名、拖动标签排序或删除标签。
   ![](/images/tags-edit-all-modal.png)
-
-在这个窗口里可以拖动标签排序：
-  ![](/images/tags-edit-all-drag.png)
-
-可以双击标签名称进行编辑：
-  ![](/images/tags-edit-all-edit-name.png)
-
-可以点击x号删除标签：
-  ![](/images/tags-edit-all-delete-tag.png)
-
-点击确定后，在“我的表单”页顶部可看到相关的修改：
-  ![](/images/tags-edit-all-finish.png)
