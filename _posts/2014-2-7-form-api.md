@@ -1,33 +1,34 @@
 ---
 layout: post
 title:  "表单API"
-date:   2014-02-28 12:12:12
+date:   2014-09-29 12:00:06
 category: api
+tags: edited
 ---
 
-表单API用于获取表单定义。并非所有的字段类型都能得到支持。目前支持的字段有：
+表单API用于获取表单定义，目前支持的字段有：
 
-* 单选框(single_choice)
-* 复选框(multiple_choice)
-* 下拉框(drop_down)
-* 日期(date)
-* Email (email)
-* 数字(number)
-* 电话(phone)
-* 多行文本(paragraph_text)
-* 单行文本(single_line_text)
+* 单选框 `single_choice`
+* 复选框 `multiple_choice`
+* 下拉框 `drop_down`
+* 日期 `date`
+* Email `email`
+* 数字 `number`
+* 电话 `phone`
+* 多行文本 `paragraph_text`
+* 单行文本 `single_line_text`
 
-上传文件、商品字段等暂时没有支持。
+###### 上传文件、商品字段等暂时没有支持。
 
-## 使用方法 
+### 使用方法 
 
-首先确保您有[API访问](api-auth.html)的能力。获得api_key/api_secret之后，即可开始获取表单的JSON定义。
+首先确保您有[API访问](api-auth.html)的能力。获得API Key&Secret后，即可获取表单的JSON定义。
 
-通过curl来访问：
+例如，通过curl来访问：
 
 `curl -u api_key:api_secret https://jinshuju.net/api/v1/forms/ex27t2`
 
-您可以使用其他编程语言获取类似的能力。您会获得类似如下的JSON表单定义：
+您获得的JSON表单定义类似如下：
 
 {% highlight json %}
 {
