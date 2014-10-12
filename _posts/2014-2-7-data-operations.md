@@ -1,30 +1,24 @@
 ---
 layout: post
-title:  "数据详情，新增、修改、删除以及打印"
+title:  "单条数据的查看与编辑"
 date:   2014-03-24 12:12:12
 category: data
+tags: edited
 ---
 
-在数据页面中，点击单条数据，即可进入该数据的详情页面。在这里，您可以对该数据进行进一步的操作，包括：**修改**，**删除**，**打印**。
+在 **数据** 页面中，点击单条数据，您可以看到数据的内容以及提交人的相关信息。在这里您也可以 **修改**、**删除** 或 **打印** 这条数据。
 
-![index](/images/data-operations-index－01.png)
+### 提交人的详细信息
 
-在删除这条数据时，会有确认提醒。
+您可以在数据详情中，查看到提交人的ID（如果提交人也是金数据用户，那么此处会显示他的昵称）、提交时间以及填写设备、系统、浏览器和IP。
+	![](/images/data-operations-1.png)
 
-![delete](/images/data-operations-index－02.png)
+### 数据的修改、删除以及打印
 
-在修改这条数据时，会进入数据详情页面点击“修改”，您可以对用户提交的内容进行一些修改。
+在数据详情中，您可以通过点击 **修改**、**删除** 以及 **打印** 来完成您的操作。
 
-![edit_1](/images/data-operations-index－03.png)
+* 点击 **修改**，您将进入数据修改页面，点击 **提交** 后修改生效。
+	![](/images/data-operations-2.png)
 
-如果有需要的话，您还可以手动对该表单**新增**一些数据。
-
-![add_1](/images/data-operations-index－04.png)
-
-添加数据的页面和编辑数据的页面类似。
-
-![add_2](/images/data-operations-index－05.png)
-
-在数据填写完成后，选择提交即可。
-
-![edit_2](/images/data-operations-index－06.png)
+* 点击 **删除** 时，您会收到确认提醒。
+	![](/images/data-operations-3.png)
