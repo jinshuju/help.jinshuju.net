@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "自定义邮件推送提醒"
-date:   2014-09-29 12:00:08
+date:   2014-09-29 12:00:09
 category: notification
 tags: edited
 ---

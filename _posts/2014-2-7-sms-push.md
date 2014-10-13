@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "自定义短信推送提醒"
-date:   2014-09-29 12:00:05
+date:   2014-09-29 12:00:10
 category: notification
 tags: edited
 ---
