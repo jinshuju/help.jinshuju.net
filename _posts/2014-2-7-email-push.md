@@ -3,6 +3,7 @@ layout: post
 title:  "自定义邮件推送提醒"
 date:   2014-09-29 12:00:08
 category: notification
+tags: edited
 ---
 
 当您的表单有新数据提交时，您可以建立多条邮件推送规则，以邮件的形式将自定义内容发送到指定的邮箱。
