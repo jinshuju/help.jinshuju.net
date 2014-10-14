@@ -57,7 +57,8 @@ category: site
 所有的文章内容部分，分类只能是以下几种之一：
 
 * `quickstart`, 快速学习金数据
-* `form`, 表单编辑以及发布
+* `form`, 表单编辑与管理
+* `publish`, 表单的发布与分享
 * `data`, 数据以及报表
 * `notification`, 短信和邮件提醒
 * `account`, 充值、套餐与增值服务

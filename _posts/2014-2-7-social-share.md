@@ -2,7 +2,7 @@
 layout: post
 title:  "分享表单到社交网站"
 date:   2014-03-30 12:12:12
-category: form
+category: publish
 ---
 
 您可以设置将表单通过社交网站进行分享。

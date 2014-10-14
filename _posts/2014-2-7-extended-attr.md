@@ -2,7 +2,7 @@
 layout: post
 title:  "使用扩展属性记录隐藏信息"
 date:   2014-03-04 12:12:12
-category: api
+category: publish
 ---
 
 扩展属性是指在数据中附加的除了表单原本字段对应值以外的用于扩展的值，可能是任意一个数据，比如微信的OpenID。

@@ -2,7 +2,7 @@
 layout: post
 title:  "在网页中嵌入表单"
 date:   2014-03-30 12:12:13
-category: form
+category: publish
 ---
 
 您可以将表单嵌入自己的网页中。

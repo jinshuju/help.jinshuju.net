@@ -2,10 +2,7 @@
 layout: post
 title:  "限制数据收集"
 date:   2014-04-01 12:12:12
-category: form
-tags: 
-
-author: 
+category: publish
 ---
 
 您可以在表单设置页面 - 收集数据，对数据收集的规则进行设置。通过这些设置，您可以尽量避免恶意刷票、重复提交，您也可以实现数据收集的自动开启/停止。
