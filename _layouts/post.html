@@ -2,36 +2,38 @@
 layout: default
 ---
 
-<div class="info clearfix">
-  <div class="page_info">
-    <a href="#categories-{{ page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>
-    <i class="fa fa-angle-right"></i> {{ page.title }}  
+<div class="fixed-width-inner">
+  <div class="info clearfix">
+    <div class="page_info">
+      <a href="#categories-{{ page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>
+      <i class="fa fa-angle-right"></i> {{ page.title }}  
+    </div>
+    <div class="category-posts">
+      <h3>分类文章</h3>
+      <ul class="posts">
+        {% for page in site.categories.[page.category] %}
+        <li>
+          <a href="{{ page.url }}">{{ page.title }}</a>        
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <!-- <div class="page_search">
+      <form role="search" method="get" class="form-search-page" action="https://www.google.com/search">
+        <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
+        <input type="hidden" name="sitesearch" value="help.jinshuju.net">
+        <button type="submit" class="search-submit">搜索</button>
+      </form>
+    </div> -->
+    
   </div>
-  <div class="category-posts">
-    <h3>分类文章</h3>
-    <ul class="posts">
-      {% for page in site.categories.[page.category] %}
-      <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>        
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
-  <!-- <div class="page_search">
-    <form role="search" method="get" class="form-search-page" action="https://www.google.com/search">
-      <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
-      <input type="hidden" name="sitesearch" value="help.jinshuju.net">
-      <button type="submit" class="search-submit">搜索</button>
-    </form>
-  </div> -->
-  
-</div>
 
-<div class="article">
-  <h1>{{ page.title }}</h1>
-  <div class="post">
-    {{ content }}
-  </div>  
+  <div class="article">
+    <h1>{{ page.title }}</h1>
+    <div class="post">
+      {{ content }}
+    </div>  
+  </div>
 </div>
 
 <script type="text/javascript">

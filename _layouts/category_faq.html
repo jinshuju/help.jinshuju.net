@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="fixed-width-inner">
+  <h2>常见问题</h2>
+
+  {% for faq in site.data.faqs %}
+    <h3 id="{{ faq.id }}">{{ faq.question }}</h3>
+    <p>{{ faq.answer | markdownify }}</p>
+  {% endfor %}
+</div>

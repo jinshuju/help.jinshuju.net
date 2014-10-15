@@ -50,6 +50,8 @@ GEM
       jekyll (~> 1.4)
     jekyll-redirect-from (0.3.1)
       jekyll (~> 1.4)
+    jekyll-sass-converter (1.2.1)
+      sass (~> 3.2)
     jekyll-sitemap (0.2.0)
       jekyll (~> 1.4)
     jemoji (0.1.0)
@@ -82,6 +84,7 @@ GEM
     rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (1.0.3)
+    sass (3.4.5)
     thread_safe (0.3.3)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -94,3 +97,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sass-converter

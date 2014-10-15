@@ -3,100 +3,104 @@ layout: default
 title: "金数据帮助中心"
 ---
 
-<div class="quickstart clearfix">
-  <div class="col">
-    <a href="/articles/create-form.html">
-      <div class="guide">
-        <i class="fa fa-file-text" style="font-size: 40px"></i>
-        <p>创建表单</p>
-      </div>
-    </a>
-  </div>
-  <div class="col">
-    <a href="/articles/publish-form.html">
-    <div class="guide">
-      <i class="fa fa-share-square-o" style="font-size: 40px"></i>
-      <p>发布表单</p>
-    </div>
-    </a>
-  </div>
-  <div class="last">
-    <a href="/articles/view-data-report.html">
-    <div class="guide">
-      <i class="fa fa-table" style="font-size: 40px"></i>
-      <p>分析数据</p>
-    </div>
-  </a>
-  </div>
-</div>
-
-
 <div class="search">
   <p>没耐心？试试搜索：</p>
   <form role="search" method="get" class="form-search-home" action="https://www.google.com/search">
       <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
       <input type="hidden" name="sitesearch" value="help.jinshuju.net">
-      <button type="submit" class="search-submit">搜索</button>
+      <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+      <div class="hot-words">
+        <a href="/articles/create-form.html">创建表单</a>
+        <a href="/articles/publish-form.html">发布表单</a>
+        <a href="/articles/view-data-report.html">分析数据</a>                
+      </div>
   </form>
 </div>
 
-<!--
-<div id="faq">
-  <h2>常见问题解答</h2>
-  <ul class="posts">
-    {% for post in site.tags.faq %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="faq" class="clearfix">
+  <div class="fixed-width-inner">
+    <h2>常见问题</h2>
+    <table>
+      <tbody>
+        {% for faq in site.data.faqs limit:8 %}
+          {% capture modulo %}{{forloop.index0 | modulo:4}}{% endcapture %}
+          {% if modulo == '0' or forloop.first %}
+            <tr>
+          {% endif %}
+          <td><a href="/categories/faq.html#{{ faq.id }}"><i class="fa fa-circle"></i> {{ faq.question }}</a></td>
+          {% if modulo == '3' or forloop.last %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+    <a class="check-more" href="/categories/faq.html">查看更多</a>
+  </div>
 </div>
-
--->
 
 <div class="categories clearfix">
-  <div class="category">
-    <a href="/categories/wechat.html" ><img style="border:none;margin-top:20px;" src="/images/wechat-pack.jpg" alt="" /></a>
-  </div>
-  {% for cat in site.category_dict %}
-  <div class="category">
-    <h2>{{ cat[1] }}</h2>
-    <ul class="posts">
-      {% for page in site.posts %}
-      {% if page.category == cat[0] %}
-        <li>
-          <a href="{{ page.url }}">{{ page.title }}
-          {% if page.tags contains 'todo'%} <span style="background-color: #666; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">待认领</span> {% endif %}
-          {% if page.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
-          {% if page.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
-          {% if page.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
-          {{ page.author }}
-          </a>
-          
-        </li>
-      {% endif %}
+  <h2>功能帮助</h2>
+  <table>
+    <tbody>
+      {% for cat in site.category_dict %}
+        {% capture modulo %}{{forloop.index0 | modulo:3}}{% endcapture %}
+        {% if modulo == '0' or forloop.first %}
+          <tr>
+        {% endif %}
+        <td>
+          <div class="category">
+            <h3>{{ cat[1] }}</h3>
+            <ul class="posts">
+              {% for page in site.posts %}
+                {% if page.category == cat[0] %}
+                  <li>
+                    <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}
+                    {% if page.tags contains 'todo'%} <span style="background-color: #666; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">待认领</span> {% endif %}
+                    {% if page.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
+                    {% if page.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
+                    {% if page.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
+                    {{ page.author }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </td>
+        {% if modulo == '2' or forloop.last %}
+          </tr>
+        {% endif %}
       {% endfor %}
-    </ul>
-  </div>
-  {% endfor %}
-
+    </tbody>
+  </table>
 </div>
 
-<div class="contact-human">
-  <h2><i class="fa fa-star" style="color:#ff8000"></i>上面的文章没能解决问题？没关系，联系我们！</h2>
-  <div class="contacts clearfix">
-    <div class="contact">
-      <h3>邮件</h3>
-      <p class="explain">我们会回复每一封邮件</p>
-      <p class="channel">support@jinshuju.net</p>
+<div class="contact-us">
+  <div class="fixed-width-inner">
+    <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
+    <div class="contacts clearfix">
+      <div class="contact">
+        <div class="contact-inner">
+          <h3>客服邮件</h3>
+          <p class="channel">support@jinshuju.net</p>
+          <p class="explain">我们会回复每一封邮件</p>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-inner">
+          <h3>电话</h3>
+          <p class="channel">400-6606-892</p>
+          <p class="explain">周一到周五，9:00-18:00</p>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-inner">
+          <h3>客服QQ</h3>
+          <p class="channel">1728106147</p>
+          <p class="explain">周一至周五，9:00-18:00</p>
+        </div>
+      </div>
     </div>
-    <div class="contact">
-      <h3>电话</h3>
-      <p class="explain">周一到周五，9:00-18:00</p>
-      <p class="channel">400-6606-892</p>
-    </div>
-    <div class="contact">
-      <h3>客服QQ</h3>
-      <p class="explain">周一至周五，9:00-18:00</p>
-      <p class="channel">1728106147</p>
-    </div>
+    
   </div>
 </div>
