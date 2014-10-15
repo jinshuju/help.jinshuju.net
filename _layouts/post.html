@@ -5,34 +5,29 @@ layout: default
 <div class="fixed-width-inner">
   <div class="info clearfix">
     <div class="page_info">
-      <a href="#categories-{{ page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>
-      <i class="fa fa-angle-right"></i> {{ page.title }}  
+      {% if site.category_dict[page.category] %}
+        <a href="/">功能帮助</a>&nbsp;&nbsp;/&nbsp;
+        <a href="#categories-{{page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>&nbsp;&nbsp;/&nbsp;
+      {% endif %}
+      {{ page.title }}  
     </div>
     <div class="category-posts">
       <h3>分类文章</h3>
       <ul class="posts">
         {% for page in site.categories.[page.category] %}
         <li>
-          <a href="{{ page.url }}">{{ page.title }}</a>        
+          <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}</a>        
         </li>
       {% endfor %}
       </ul>
     </div>
-    <!-- <div class="page_search">
-      <form role="search" method="get" class="form-search-page" action="https://www.google.com/search">
-        <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
-        <input type="hidden" name="sitesearch" value="help.jinshuju.net">
-        <button type="submit" class="search-submit">搜索</button>
-      </form>
-    </div> -->
-    
   </div>
 
   <div class="article">
     <h1>{{ page.title }}</h1>
     <div class="post">
       {{ content }}
-    </div>  
+    </div>
   </div>
 </div>
 
@@ -44,7 +39,7 @@ layout: default
     $(".category-link").click(function(e){
       $(".category-posts").toggle();
       e.stopPropagation();
-      event.preventDefault();
+      e.preventDefault();
     })
     $(".category-posts").click(function() {
       e.stopPropagation();

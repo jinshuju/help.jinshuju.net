@@ -241,27 +241,35 @@ a:hover   { color: #4183c4; }
   float: right;
 }
 
-.info .category-posts h3 {
-  border-bottom: 1px solid #ccc;
-}
-
 .info .category-posts {
   position: absolute;
-  left: 0px;
+  left: 68px;
+  top: 22px;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 0px 10px 0px 10px;
   z-index: 10;
   box-shadow: 2px 2px 4px #ddd;
-  border-radius: 4px;
-  top: 26px;
+  border-radius: 3px;
   display: none;
 }
 
+.info .category-posts h3 {
+  border-bottom: 1px solid #ccc;
+}
+
+.info .category-posts li a {
+  color: #4A90E2;
+}
+
+.article {
+  margin-top: 20px;
+}
 
 .article h2 {
   font-size: 30px;
   font-weight: normal;
+  line-height: 150%;
 }
 
 .article h3 {
@@ -398,6 +406,23 @@ a:hover   { color: #4183c4; }
 }
 
 #faq td a:hover {
+}
+
+.faq-page {
+  margin-top: 30px;
+}
+
+.faq-page h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.faq-page p {
+  margin-top: 5px;
+}
+
+.faq-page p:empty {
+  margin: 0;
 }
 
 .form-search-home {
@@ -586,7 +611,7 @@ a.club-link {
 
 .search {
   width: 930px;
-  margin: 10px auto 20px;
+  margin: 30px auto 20px;
 }
 
 .search p {

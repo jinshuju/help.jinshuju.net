@@ -1,0 +1,103 @@
+- id: textfield
+  name: 单行文字
+  description: >
+    适用于填写简短的文字，一般用于填表者基本信息的采集。   
+
+    如“姓名”、“公司”、“班级”、“部门”或“身份证号”等。
+
+- id: textarea
+  name: 多行文字
+  description: >
+    适用于填写大段文字。   
+
+    可以用于“留言”、“建议”等场景。
+
+- id: radiobutton
+  name: 单项选择
+  description: >
+    适用于在多个选项中选择一项。   
+
+    例如性别、年龄段、“是／否”等场景。
+
+- id: checkbox
+  name: 多项选择
+  description: >
+    适用于在几个选项里选多个，如投票、市场调查等等。   
+
+    适用于在多个选项中选择多项。
+
+- id: imageradiobutton
+  name: 图片单选
+  description: 适用于在几张图片里选一个，如看图投票、问卷、订单等等。
+
+- id: imagecheckbox
+  name: 图片多选
+  description: 适用于在几张图片里选择多个，如投票、问卷。
+
+- id: likertfield
+  name: 矩阵单选
+  description: 适用于将相同选项的问题组成一个简洁的表格，如满意度调查。
+
+- id: numberfield
+  name: 数字
+  description: 适用于填写数字矩阵，如年龄、订购数量。
+
+- id: emailfield
+  name: 邮箱
+  description: 适用于表单当中电子邮箱的收集。
+
+- id: linkfield
+  name: 网址
+  description: 适用于收集网站链接。
+
+- id: addressfield
+  name: 地址
+  description: 适用于填写全国的地址。
+
+- id: geofield
+  name: 地理位置
+  description: 适用于帮助填表者提交更精准的地理位置信息，以便更高效地为他们安排外送等服务，内置Google地图。
+
+- id: telephonefield
+  name: 电话
+  description: 适用于填写全球的电话、手机、QQ号等。
+
+- id: mobilefield
+  name: 手机
+  description: 适用于填写中国大陆境内的手机号码。
+
+- id: datefield
+  name: 日期
+  description: 适用于选择特定日期。
+
+- id: timefield
+  name: 时间
+  description: 适用于选择特定时间，可以精确到秒。
+
+- id: dropdown
+  name: 下拉框
+  description: 适用于在非常多的选项里选一个。
+
+- id: cascadedropdown
+  name: 两级下拉框
+  description: 适用于展示两级联动、如一级选择了饮料，二级就只能选择苹果汁、可乐等。该字段限以下用户：标准版、拓展版、企业版。
+
+- id: ratingfield
+  name: 评分
+  description: 适用于表达喜爱程度、评分等级。
+
+- id: sectionbreak
+  name: 分节
+  description: 适用于将整个表单分割成几段。适用于所有类型的表单，能让表单排版更有条理。
+
+- id: attachmentfield
+  name: 上传文件
+  description: 适用于收集文件，如简历、照片。该字段限以下用户：标准版、拓展版、企业版。
+
+- id: goodsfield
+  name: 配图商品
+  description: 适用于发布有精美配图的商品，如蛋糕、鞋、裙子、包。该字段限以下用户：标准版、拓展版、企业版。
+
+- id: basicgoodsfield
+  name: 无图商品
+  description: 适用于发布无需配图的商品，如“京酱肉丝盖饭”。该字段限以下用户：标准版、拓展版、企业版。
