@@ -11,8 +11,8 @@ category_dict:
   publish: "表单的发布与分享"
   data: "数据以及报表"
   notification: "短信和邮件提醒"
-  account: "充值、套餐与增值服务"
   wechat: "金数据与微信"
+  account: "充值、套餐与增值服务"
   payment: "商品字段和支付"
   api: "API与集成"
 gems:
