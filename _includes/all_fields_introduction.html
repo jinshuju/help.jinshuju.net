@@ -1,4 +1,4 @@
-<div id="all_field">
+<div id="all_field_links">
   {% for field in site.data.fields %}
     <div class="field-item">
     	<a href="#field_{{ field.id }}"><img src="/images/add-field-link-{{ field.id }}.png" /></a>
@@ -6,9 +6,10 @@
   {% endfor %}
 </div>
 
-<ol>
+<ol class="all_field_descriptions">
   {% for field in site.data.fields %}
-	<li id="field_{{ field.id }}">{{ field.name }}
+	<li id="field_{{ field.id }}">
+		<h3>{{ field.name }}</h3>
 		<ul>
 			<li>
 				<div>{{ field.description }}</div>

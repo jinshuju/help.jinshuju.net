@@ -622,3 +622,28 @@ a.club-link {
   float: left;
   margin: 15px 30px 15px 0px;
 }
+
+#all_field_links {
+  border: 2px dashed #DDD;
+  padding: 10px 0 5px;
+}
+
+#all_field_links .field-item {
+  display: inline-block;
+  width: 24%;
+  text-align: center
+}
+
+#all_field_links .field-item a {
+  margin-left: 14px;
+}
+
+#all_field_links .field-item img {
+  border-color: transparent;
+  margin: 0;
+  max-width: 90%;
+}
+
+#all_field_links .field-item a:hover img {
+  border-color: #CCC;
+}
