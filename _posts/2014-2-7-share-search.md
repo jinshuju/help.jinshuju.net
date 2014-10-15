@@ -2,7 +2,7 @@
 layout: post
 title:  "开放结果查询"
 date:   2014-03-22 12:12:12
-category: data
+category: publish
 tags: edited
 ---
 

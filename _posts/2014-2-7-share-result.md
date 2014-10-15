@@ -2,7 +2,7 @@
 layout: post
 title:  "分享结果给所有人"
 date:   2014-03-23 12:12:12
-category: data
+category: publish
 tags: edited
 ---
 
