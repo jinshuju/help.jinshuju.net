@@ -8,8 +8,8 @@
 
 <ol class="all_field_descriptions">
   {% for field in site.data.fields %}
-	<li id="field_{{ field.id }}">
-		<h3>{{ field.name }}</h3>
+	<li>
+		<h3 id="field_{{ field.id }}">{{ field.name }}</h3>
 		<ul>
 			<li>
 				<div>{{ field.description }}</div>

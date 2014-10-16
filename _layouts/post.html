@@ -11,16 +11,28 @@ layout: default
       {% endif %}
       {{ page.title }}  
     </div>
-    <div class="category-posts">
-      <h3>分类文章</h3>
-      <ul class="posts">
-        {% for page in site.categories.[page.category] %}
-        <li>
-          <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}</a>        
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
+    {% if site.categories.[page.category] %}
+      <div class="category-posts">
+        <h3>分类文章</h3>
+        <ul class="posts">
+          {% assign current_page = page %}
+          {% assign pages = site.categories.[page.category] %}
+          {% for page in pages %}
+            {% if current_page.id == page.id %}
+              {% assign next_i = forloop.index0 | plus: 1 %}
+              {% assign prev_i = forloop.index0 | minus: 1 %}
+              {% assign next_post = pages[next_i] %}
+              {% if prev_i >= 0 %}
+                {% assign prev_post = pages[prev_i] %}
+              {% endif %}
+            {% endif %}
+            <li>
+              <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i>{{ page.title }}</a>        
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   </div>
 
   <div class="article">
@@ -28,9 +40,18 @@ layout: default
     <div class="post">
       {{ content }}
     </div>
+    <div class="clearfix">
+      {% if prev_post != nil %}
+        <a href="{{ prev_post.url }}" class="previous pull-left">{{ prev_post.title }}</a>
+      {% endif %}
+      {% if next_post != nil %} 
+        <a href="{{ next_post.url }}" class="next pull-right">{{ next_post.title }}</a>
+      {% endif %} 
+    </div>
   </div>
-</div>
 
+  <div class="go-to-top" title="回到顶部"><i class="fa fa-arrow-circle-up"></i></div>
+</div>
 <script type="text/javascript">
   $(function(){
     $("body").click(function() {
@@ -44,5 +65,51 @@ layout: default
     $(".category-posts").click(function() {
       e.stopPropagation();
     })
-  })
+    $(document).ready(function(){
+      var sectionTitles = $(".article h3");
+      if (sectionTitles.length > 1) {
+        var quickMenuDom = $("<div class='quick-menu'></div>");
+        var quickMenuUlDom = $("<ul></ul>");
+        var idParts = {};
+        sectionTitles.each(function(index){
+          var titleDom = $(this);
+          if (!titleDom.attr("id")) {
+            titleDom.attr("id", "quick_menu_item_" + index);
+          }
+          idParts[index] = titleDom.attr("id");
+          var liDom = $("<li class='menu-item'><a href='#" + titleDom.attr("id") + "'>" + titleDom.text() + "</a></li>");
+          if (index == 0) {
+            liDom.addClass("active");
+          }
+          quickMenuUlDom.append(liDom);
+        });
+        quickMenuDom.append(quickMenuUlDom);
+        $(".article").append(quickMenuDom);
+        $(".article").addClass('affix');
+        $('.quick-menu').stickUp({
+          parts: idParts,
+          itemClass: 'menu-item',
+          itemHover: 'active',
+          marginTop: 'auto'
+        });
+      } 
+    });
+    $(window).on('scroll resize', function() {
+      if ($('.go-to-top').length > 0) {
+        if($(window).scrollTop() > ($(window).height() / 2)) {
+          left = Math.min(($('body .article').offset().left + $('body .article').outerWidth() + 10), ($(window).width() - 50));
+          $('.go-to-top').show().css('left', left).css('right', 'auto');
+        }
+        else {
+          $('.go-to-top').hide();
+        }
+      }
+    });
+    $(document).on('click', '.go-to-top', function() {
+      $(window).scrollTop(0);
+      if ($('.quick-menu').length > 0) {
+        $(window).trigger('scroll');
+      }
+    });
+  });
 </script>

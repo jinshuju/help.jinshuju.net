@@ -5,8 +5,6 @@ markdown: redcarpet
 pygments: true
 permalink: /articles/:title.html
 safe: true
-sass:
-  sass_dir: _sass
 category_dict:
   quickstart: "快速学习金数据"
   form: "表单编辑与管理"

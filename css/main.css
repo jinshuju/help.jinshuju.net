@@ -38,6 +38,14 @@ a:hover   { color: #4183c4; }
   clear:both;
 }
 
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -314,8 +322,48 @@ a:hover   { color: #4183c4; }
 .article th {
   background-color: #f7f7f7;
 }
+
 .article a:hover {
   text-decoration: underline;
+}
+
+.article.affix {
+  padding-right: 200px;
+  position: relative;
+}
+
+.quick-menu {
+  position: absolute;
+  top: 30px;
+  width: 180px;
+  margin-left: 730px;
+}
+
+.quick-menu.stuckMenu {
+  position: absolute!important;
+  top: 30px!important;
+}
+
+.quick-menu.isStuck {
+  position: fixed!important;
+  top: 0!important;
+}
+
+.quick-menu .menu-item {
+  background: none;
+}
+
+.quick-menu .menu-item a {
+  color: #999;
+  text-decoration: none;
+}
+
+.quick-menu .menu-item:hover, .quick-menu .menu-item.active {
+  background: transparent url(/images/bullet-li.png) 0 0.4em no-repeat;
+}
+
+.quick-menu .menu-item:hover a, .quick-menu .menu-item.active a {
+  color: #4183c4;
 }
 
 .post ol {
@@ -646,4 +694,27 @@ a.club-link {
 
 #all_field_links .field-item a:hover img {
   border-color: #CCC;
+}
+
+.go-to-top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #a3b0bc;
+  z-index: 100;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 17px;
+}
+
+.go-to-top:hover {
+  background: white;
+}
+
+.go-to-top i {
+  line-height: 34px;
 }

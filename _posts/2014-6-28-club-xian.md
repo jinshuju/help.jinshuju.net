@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: club
 title:  "小金俱乐部 - 西安"
 date:   2014-06-28 14:00:00
 category: club
