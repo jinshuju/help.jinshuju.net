@@ -29,7 +29,6 @@ tags: edited
 	点击“复制代码”后，在博客后台打开 **插件** —— **添加插件**，搜索"jinshuju"并安装启用，然后在编辑文章时插入代码。  	
 
 ![](/images/embedded-index.png)
- 
 
 ### 定制参数
 
