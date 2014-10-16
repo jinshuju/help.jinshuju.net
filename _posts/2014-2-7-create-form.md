@@ -27,9 +27,8 @@ tags: edited
 	![](/images/use-fields-all.png)
 
 
-2. 对于必须要填写的项目，设置“必须填”校验。
+3. 对于必须要填写的项目，设置“必须填”校验。
 	![](/images/create-form-4.png)
 
-3. 第一个表单就创建好了，不要忘了保存哦！
 
 ###### 您也可以通过[模版中心](https://jinshuju.net/templates)来创建您的第一个表单。
