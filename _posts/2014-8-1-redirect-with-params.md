@@ -19,8 +19,8 @@ tags: edited
 
 当用户填写了该表单并提交后，将会附带勾选的参数跳转到网页。
 
-例如：
-`http://success.test.com/?field_1=%E5%B0%8F%E9%87%91&field_2=18688888888&jamr_h=LS0tCi0gbGlkcGhMCi0gajdaT3d0Ci0gMjAxNC0wOC0wMSAwMzowNTo1MS4yNDIxMDkwMDAgWgo%3D--85cfef90a8c206eb6d80c4b0a158bc97&serial_number=1381`
+例如：  
+`http://success.test.com/?field_1=xxx&field_2=xxx&jamr_h=xxx&serial_number=xxx`
 
 跳转的网址包含4个参数：serial\_number、field\_1、field\_2和jamr\_h。前3个是您勾选的字段，字段的API Code可以点击上图所示的“字段对照表”查看得到。jamr\_h是系统自动生成的验证码。您可以通过发送一个GET请求至 `https://jinshuju.net/api/v1/jamr_v` 来验证跳转参数的有效性。
 
@@ -30,7 +30,7 @@ tags: edited
 
 您需要在提交成功转向后的 **10分钟内** 发送GET请求至 `https://jinshuju.net/api/v1/jamr_v`进行验证。
 
-例如：
-`https://jinshuju.net/api/v1/jamr_v?field_1=%E5%B0%8F%E9%87%91&field_2=18688888888&jamr_h=LS0tCi0gbGlkcGhMCi0gajdaT3d0Ci0gMjAxNC0wOC0wMSAwMzowNTo1MS4yNDIxMDkwMDAgWgo%3D--85cfef90a8c206eb6d80c4b0a158bc97&serial_number=1381`
+例如：  
+`https://jinshuju.net/api/v1/jamr_v?field_1=xxx&field_2=xxx&jamr_h=xxx&serial_number=xxx`
 
 如果返回200则表示验证通过，如果返回400则表示验证失败，失败信息可以查看response JSON中的message。
