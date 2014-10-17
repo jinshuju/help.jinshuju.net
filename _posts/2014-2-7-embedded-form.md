@@ -3,7 +3,6 @@ layout: post
 title:  "在网页中嵌入表单"
 date:   2014-09-29 12:00:07
 category: publish
-tags: edited
 ---
 
 您可以将表单嵌入到自己的网页或博客中，以方便其他人在浏览网页的同时填写表单。
