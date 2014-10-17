@@ -3,7 +3,6 @@ layout: post
 title:  "字段规则和跳转规则"
 date:   2014-09-26 12:00:07
 category: form
-tags: edited
 ---
 
 当您的表单想要实现 **选择A才显示B题的逻辑** 或 **选择A提交后跳转到某个网址** 时，就要使用表单规则。
@@ -16,13 +15,13 @@ tags: edited
 
 字段规则主要用于反应题目之间的逻辑关系。  
 例如下图中的例子，我们希望当用户选择 **报告一个问题** 时，才出现 **上传问题截图** 和 **问题描述**。
-![](/images/field-rules-1.png)
+	![](/images/field-rules-1.png)
 
 这时，只需要在表单的 **规则** —— **字段规则** 页面，依次添加新规则。
-![](/images/field-rules-2.png)
+	![](/images/field-rules-2.png)
 
 保存规则后，我们来预览一下，当用户选择了 **提出一个建议** 时，只出现 **建议** 文字框。
-![](/images/field-rules-3.png)
+	![](/images/field-rules-3.png)
 
 ### 跳转规则
 
@@ -32,7 +31,7 @@ tags: edited
 ##### 跳转规则仅限标准版即以上版本用户使用。
 
 下图是一个简单展示跳转规则的例子。
-![](/images/redirects-rules-1.png)
+	![](/images/redirects-rules-1.png)
 
 为了实现我们的需求，只需要在表单的 **规则** —— **跳转规则** 页面，依次添加新规则。
-![](/images/redirects-rules-2.png)
+	![](/images/redirects-rules-2.png)

@@ -3,17 +3,16 @@ layout: post
 title:  "在表单里插入图片"
 date:   2014-09-26 12:00:10
 category: form
-tags: edited
 ---
 
 当您想要在表单描述区域或字段提示区域内插入图片时，您可以点击“插入／编辑图片”按钮，我们支持您从本地上传图片或直接粘贴外链地址。此功能目前仅对标准版及以上套餐用户开通。
 
-###### 上传的本地图片仅支持gif、jpg/jpeg、png格式，且单张图片不能大于1MB；单个表单最大只能上传10张图片，上传的图片会占用用户空间。
+###### 上传的本地图片仅支持gif、jpg/jpeg、png格式，且单张图片不能大于1MB；单个表单最大只能上传10张图片，上传的图片会占用存储空间。
 
 1. 在编辑框里点击“插入/编辑图片”按钮。
-	![插入/编辑图片按钮](/images/form-editing-insert-pics-1.png)
+	![](/images/form-editing-insert-pics-1.png)
 
 2. 点击上传本地图片后选择图片上传，或者您也可以粘贴图片的外链地址，您的图片会在下面的区域内即时预览。
-	![上传/图片预览](/images/form-editing-insert-pics-2.png)
+	![](/images/form-editing-insert-pics-2.png)
 
 3. 单击插入的图片，您可以通过拖拽图片四周的尺寸控点（小方块）来调整图片大小。

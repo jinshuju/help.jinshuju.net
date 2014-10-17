@@ -3,13 +3,11 @@ layout: post
 title: "使用标签管理表单"
 date:   2014-09-26 12:00:04
 category: form
-tags: edited
 ---
 
 表单太多，不好寻找怎么办？不要担心，您可以使用标签来管理您的表单。
 
 ###### 如果您之前使用过分组功能，我们已帮您转成相同的标签名，请放心使用！
-
 ![](/images/tags-overview.png)
 
 ### 为表单添加标签
