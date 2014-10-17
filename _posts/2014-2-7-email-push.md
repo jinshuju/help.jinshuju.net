@@ -3,7 +3,6 @@ layout: post
 title:  "自定义邮件推送提醒"
 date:   2014-09-29 12:00:09
 category: notification
-tags: edited
 ---
 
 当您的表单有新数据提交时，您可以建立多条邮件推送规则，以邮件的形式将自定义内容发送到指定的邮箱。
@@ -13,12 +12,12 @@ tags: edited
 ### 设置步骤
 
 1. 在您表单的 **设置** —— **提醒推送** 页面的下部，您可以添加邮件提醒或查看当前的邮件提醒规则。
-  ![](/images/email-push-setting.png)
+	![](/images/email-push-setting.png)
 
 2. 点击 **添加邮件提醒**，出现邮件提醒自定义设置页面。
-  ![](/images/email-push-index.png)
+	![](/images/email-push-index.png)
 
-####自定义邮件推送的设置类似于自定义短信推送，所以请[点此查看](sms-push.html#sms-push-condition)。
+#### 自定义邮件推送的设置类似于自定义短信推送，所以请[点此查看](sms-push.html#sms-push-condition)。
 
 ### 注意事项
 
