@@ -49,7 +49,15 @@ title: "金数据帮助中心"
         {% endif %}
         <td>
           <div class="category">
-            <h3>{{ cat[1] }}</h3>
+            <h3>
+              {{ cat[1] }}
+              {% if cat[0] == 'wechat' %}
+                <i class="fa fa-weixin"></i>
+              {% endif %}
+              {% if cat[0] == 'payment' %}
+                <img src="/images/alipay-icon.png" width="18" style="vertical-align: top;" />
+              {% endif %}
+            </h3>
             <ul class="posts">
               {% for page in site.posts %}
                 {% if page.category == cat[0] %}
@@ -81,26 +89,38 @@ title: "金数据帮助中心"
     <div class="contacts clearfix">
       <div class="contact">
         <div class="contact-inner">
-          <h3>客服邮件</h3>
-          <p class="channel">support@jinshuju.net</p>
+          <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
+          <p class="channel"><a href="mailto:support@jinshuju.net">support@jinshuju.net</a></p>
           <p class="explain">我们会回复每一封邮件</p>
         </div>
       </div>
       <div class="contact">
         <div class="contact-inner">
-          <h3>电话</h3>
+          <h3><i class="fa fa-phone"></i> 电话</h3>
           <p class="channel">400-6606-892</p>
           <p class="explain">周一到周五，9:00-18:00</p>
         </div>
       </div>
       <div class="contact">
         <div class="contact-inner">
-          <h3>客服QQ</h3>
+          <h3><i class="fa fa-qq"></i> 客服QQ</h3>
           <p class="channel">1728106147</p>
           <p class="explain">周一至周五，9:00-18:00</p>
         </div>
       </div>
     </div>
-    
   </div>
 </div>
+
+
+
+<script type="text/javascript">
+  $(function(){
+    $(".form-search-home .search-field").focus(function() {
+      $(this).closest('form').addClass('focus');
+    });
+    $(".form-search-home .search-field").blur(function() {
+      $(this).closest('form').removeClass('focus');
+    });
+  });
+</script>

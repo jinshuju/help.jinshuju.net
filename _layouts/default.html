@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/css/main.css">
         
         <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-        <script src="/js/stickUp.min.js"></script>
+        <script src="/js/stickUp.js"></script>
     </head>
     <body>
       <div class="page_body">      
@@ -46,16 +46,38 @@
           </div>          
         </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script type="text/javascript">
+          $(function(){
+            $(window).on('scroll resize', function() {
+              if ($('.go-to-top').length > 0) {
+                if($(window).scrollTop() > ($(window).height() / 2)) {
+                  left = Math.min(($('.scroll-area').offset().left + $('.scroll-area').outerWidth() + 10), ($(window).width() - 50));
+                  $('.go-to-top').show().css('left', left).css('right', 'auto');
+                }
+                else {
+                  $('.go-to-top').hide();
+                }
+              }
+            });
+            $(document).on('click', '.go-to-top', function() {
+              $(window).scrollTop(0);
+              if ($('.quick-menu').length > 0) {
+                $(window).trigger('scroll');
+              }
+            });
+          });
+        </script>
 
-  ga('create', 'UA-48208031-4', 'jinshuju.net');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
+          ga('create', 'UA-48208031-4', 'jinshuju.net');
+          ga('require', 'displayfeatures');
+          ga('send', 'pageview');
+
+        </script>
     </body>
 </html>

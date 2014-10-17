@@ -153,7 +153,6 @@ a:hover   { color: #4183c4; }
   font-size: 12px;  
   border-top: 1px solid #eee;
   background-color: #fafafa;
-  margin-top: 40px;  
   text-align: center;
   bottom: 0;
 }
@@ -271,7 +270,9 @@ a:hover   { color: #4183c4; }
 }
 
 .article {
+  padding-right: 200px;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .article h2 {
@@ -284,7 +285,7 @@ a:hover   { color: #4183c4; }
   border-bottom: 1px solid #dddddd;
   font-weight: normal;
   color: #325d72;
-  margin: 40px 0px 20px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 .article h4 {
@@ -328,7 +329,6 @@ a:hover   { color: #4183c4; }
 }
 
 .article.affix {
-  padding-right: 200px;
   position: relative;
 }
 
@@ -351,15 +351,17 @@ a:hover   { color: #4183c4; }
 
 .quick-menu .menu-item {
   background: none;
+  line-height: 120%;
 }
 
 .quick-menu .menu-item a {
+  font-size: 12px;
   color: #999;
   text-decoration: none;
 }
 
 .quick-menu .menu-item:hover, .quick-menu .menu-item.active {
-  background: transparent url(/images/bullet-li.png) 0 0.4em no-repeat;
+  background: transparent url(/images/bullet-li.png) 0 0.3em no-repeat;
 }
 
 .quick-menu .menu-item:hover a, .quick-menu .menu-item.active a {
@@ -412,6 +414,10 @@ a:hover   { color: #4183c4; }
   width: 20px;
 }
 
+.fields-introduction img {
+  margin-top: 0;
+}
+
 .fixed-width-inner {
   width: 930px;
   margin: 0 auto;
@@ -432,7 +438,7 @@ a:hover   { color: #4183c4; }
 
 #faq table {
   width: 100%;
-  margin: 6px 0;
+  margin-bottom: 10px;
 }
 
 #faq td {
@@ -461,8 +467,11 @@ a:hover   { color: #4183c4; }
 }
 
 .faq-page h3 {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #dddddd;
+  font-weight: normal;
+  color: #325d72;
 }
 
 .faq-page p {
@@ -471,6 +480,11 @@ a:hover   { color: #4183c4; }
 
 .faq-page p:empty {
   margin: 0;
+}
+
+.faq-page #faq {
+  background: none;
+  padding: 5px 0;
 }
 
 .form-search-home {
@@ -484,6 +498,12 @@ a:hover   { color: #4183c4; }
   border-radius: 3px;
   border: none;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.form-search-home input:focus {
+  border: none;
+  box-shadow: none;
 }
 
 .form-search-home button {
@@ -509,6 +529,18 @@ a:hover   { color: #4183c4; }
   font-size: 12px;
   padding: 6px 12px;
   margin-right: 6px;
+}
+
+.form-search-home .hot-words a:hover {
+  background: #DDD;
+}
+
+.form-search-home.focus .hot-words {
+  display: none;
+}
+
+.form-search-home:hover button, .form-search-home.focus button {
+  color: #EB8C00;
 }
 
 .form-search-page input{
@@ -581,6 +613,7 @@ a.club-link {
   background-color: #FAFAFA;
   padding: 20px;
   border-radius: 6px;
+  margin-top: 40px;
 }
 
 .contact-us h2 {
@@ -657,6 +690,10 @@ a.club-link {
   border-bottom: 1px solid #ddd;
 }
 
+.category h3 i {
+  color: #1AB11D;
+}
+
 .search {
   width: 930px;
   margin: 30px auto 20px;
@@ -702,19 +739,13 @@ a.club-link {
   bottom: 40px;
   font-size: 40px;
   cursor: pointer;
-  color: #a3b0bc;
+  color: #CFD6DC;
   z-index: 100;
-  width: 34px;
-  height: 34px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 17px;
 }
 
 .go-to-top:hover {
-  background: white;
+  color: #A3B0BC;
 }
 
 .go-to-top i {
-  line-height: 34px;
 }

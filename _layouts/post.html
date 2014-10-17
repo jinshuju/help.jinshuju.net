@@ -7,7 +7,7 @@ layout: default
     <div class="page_info">
       {% if site.category_dict[page.category] %}
         <a href="/">功能帮助</a>&nbsp;&nbsp;/&nbsp;
-        <a href="#categories-{{page.category}}" class="category-link">{{site.category_dict[page.category] }}</a>&nbsp;&nbsp;/&nbsp;
+        <a href="#categories-{{page.category}}" class="category-link">{{ site.category_dict[page.category] }} <i class="fa fa-caret-down"></i></a>&nbsp;&nbsp;/&nbsp;
       {% endif %}
       {{ page.title }}  
     </div>
@@ -27,7 +27,7 @@ layout: default
               {% endif %}
             {% endif %}
             <li>
-              <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i>{{ page.title }}</a>        
+              <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}</a>        
             </li>
           {% endfor %}
         </ul>
@@ -35,36 +35,36 @@ layout: default
     {% endif %}
   </div>
 
-  <div class="article">
+  <div class="article scroll-area">
     <h1>{{ page.title }}</h1>
     <div class="post">
       {{ content }}
     </div>
     <div class="clearfix">
       {% if prev_post != nil %}
-        <a href="{{ prev_post.url }}" class="previous pull-left">{{ prev_post.title }}</a>
+        <a href="{{ prev_post.url }}" class="previous pull-left"><i class="fa fa-chevron-left"></i> {{ prev_post.title }}</a>
       {% endif %}
       {% if next_post != nil %} 
-        <a href="{{ next_post.url }}" class="next pull-right">{{ next_post.title }}</a>
+        <a href="{{ next_post.url }}" class="next pull-right">{{ next_post.title }} <i class="fa fa-chevron-right"></i></a>
       {% endif %} 
     </div>
   </div>
-
-  <div class="go-to-top" title="回到顶部"><i class="fa fa-arrow-circle-up"></i></div>
 </div>
+<div class="go-to-top" title="回到顶部"><i class="fa fa-arrow-circle-up"></i></div>
+
 <script type="text/javascript">
   $(function(){
     $("body").click(function() {
       $(".category-posts").hide();
-    })
+    });
     $(".category-link").click(function(e){
       $(".category-posts").toggle();
       e.stopPropagation();
       e.preventDefault();
-    })
+    });
     $(".category-posts").click(function() {
       e.stopPropagation();
-    })
+    });
     $(document).ready(function(){
       var sectionTitles = $(".article h3");
       if (sectionTitles.length > 1) {
@@ -93,23 +93,6 @@ layout: default
           marginTop: 'auto'
         });
       } 
-    });
-    $(window).on('scroll resize', function() {
-      if ($('.go-to-top').length > 0) {
-        if($(window).scrollTop() > ($(window).height() / 2)) {
-          left = Math.min(($('body .article').offset().left + $('body .article').outerWidth() + 10), ($(window).width() - 50));
-          $('.go-to-top').show().css('left', left).css('right', 'auto');
-        }
-        else {
-          $('.go-to-top').hide();
-        }
-      }
-    });
-    $(document).on('click', '.go-to-top', function() {
-      $(window).scrollTop(0);
-      if ($('.quick-menu').length > 0) {
-        $(window).trigger('scroll');
-      }
     });
   });
 </script>
