@@ -3,14 +3,13 @@ layout: post
 title:  "数据导出和附件下载"
 date:   2014-04-19 10:06:16
 category: data
-tags: edited
 ---
 
 ### 数据导出
 
 您可以将您的数据导出到Excel，以供您进一步编辑处理。
 
-1. 进入 **数据** 页面，页面底部可以 **导出到Excel**。
+1. 进入 **数据** 页面，页面底部可以“导出到Excel”。
 	![](/images/data-export-1.png)
 
 2. 配合 **显示/隐藏列** ([点我查看](data.html#show_hide_col))，您可以有选择地导出当前显示的列，或者直接导出所有列。
