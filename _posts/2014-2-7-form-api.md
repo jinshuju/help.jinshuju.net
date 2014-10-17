@@ -3,7 +3,6 @@ layout: post
 title:  "表单API"
 date:   2014-09-29 12:00:06
 category: api
-tags: edited
 ---
 
 表单API用于获取表单定义，目前支持的字段有：
@@ -18,11 +17,11 @@ tags: edited
 * 多行文本 `paragraph_text`
 * 单行文本 `single_line_text`
 
-###### 上传文件、商品字段等暂时没有支持。
+###### 上传文件、商品字段等暂时未支持。
 
 ### 使用方法 
 
-首先确保您有[API访问](api-auth.html)的能力。获得API Key&Secret后，即可获取表单的JSON定义。
+首先确保您有[访问API](api-auth.html)的能力。获得API Key&Secret后，即可获取表单的JSON定义。
 
 例如，通过curl来访问：
 

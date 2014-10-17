@@ -3,7 +3,6 @@ layout: post
 title:  "数据API"
 date:   2014-09-29 12:00:05
 category: api
-tags: edited
 ---
 
 数据API用于对表单数据进行维护。
@@ -12,7 +11,7 @@ tags: edited
 
 ### 使用方法
 
-首先确保您有[API访问](api-auth.html)的能力。获得API Key&Secret后，即可通过API提交数据。
+首先确保您有[访问API](api-auth.html)的能力。获得API Key&Secret后，即可通过API提交数据。
 
 {% highlight bash %}
 POST https://jinshuju.net/api/v1/forms/1F34Qv
@@ -21,6 +20,7 @@ Content-Type: application/json
 {% endhighlight %}
 
 数据提交请求应该是一个满足表单定义的JSON格式。例如：
+
 {% highlight json %}
 {
   "field_7": "大显国际",
@@ -29,6 +29,7 @@ Content-Type: application/json
 {% endhighlight%}
 
 如果不满足校验条件（必填/重复等），金数据会返回400，并给出提示如下：
+
 {% highlight json %}
 {
     "error": "bad_request",
