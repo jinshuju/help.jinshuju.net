@@ -11,4 +11,4 @@ category: quickstart
 	![](/images/data-show_hidden_col.png)
 
 在 **[报表页面](report.html)** 查看选项对应的图表。
-	![](/images/report-result_chart.png)
+	![](/images/report-result.png)
