@@ -7,7 +7,7 @@ permalink: /articles/:title.html
 safe: true
 category_dict:
   quickstart: "快速学习金数据"
-  form: "表单编辑与管理"
+  form: "表单的编辑与管理"
   publish: "表单的发布与分享"
   data: "数据以及报表"
   notification: "短信和邮件提醒"
