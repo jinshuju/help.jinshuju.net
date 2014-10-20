@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "单条数据的查看与编辑"
-date:   2014-03-24 12:12:12
+date:   2014-09-24 12:12:12
 category: data
 ---
 

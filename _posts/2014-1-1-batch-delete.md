@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "批量删除数据"
-date:   2014-04-19 10:06:17
+date:   2014-04-19 10:06:16
 category: data
 ---
 
