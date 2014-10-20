@@ -21,5 +21,5 @@ category: quickstart
 
 #### 关于微信，您还可以参考：
 
-* 如果您对微信链接的图标样式不满意，请参照[设置微信分享链接的图标](social-share.html#wechat-link-icon)。  
+* 如果您对微信链接的图标样式不满意，请参照[设置微信分享链接的图标](share-to-wechat.html#wechat-link-icon)。  
 * 如果您想要将表单发布到微信公众号，请查看[用微信公众号发布表单](wechat.html)。
