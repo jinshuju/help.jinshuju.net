@@ -31,7 +31,7 @@
 - id: wechat
   question: 如何把表单发布到微信？
   answer: >
-    发布到个人微信请查看[这份文档](http://help.jinshuju.net/articles/publish-form)。   
+    发布到个人微信请查看[这份文档](http://help.jinshuju.net/articles/share-to-wechat)。   
 
     发布到微信公众账号请查看[这份文档](http://help.jinshuju.net/articles/wechat)。
 
