@@ -464,6 +464,7 @@ a:hover   { color: #4183c4; }
 
 .faq-page {
   margin-top: 30px;
+  margin-bottom: 600px;
 }
 
 .faq-page h3 {
@@ -471,7 +472,7 @@ a:hover   { color: #4183c4; }
   margin-bottom: 8px;
   border-bottom: 1px solid #dddddd;
   font-weight: normal;
-  color: #325d72;
+  color: #0079B5;
 }
 
 .faq-page p {
