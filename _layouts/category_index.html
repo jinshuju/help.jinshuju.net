@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="category">
+<div class="category fixed-width-inner" style="padding-top: 20px;">
   <h2>{{ site.category_dict.[page.the_category] }}</h2>
   <ul class="posts">
     {% for page in site.categories.[page.the_category] %}
