@@ -78,6 +78,10 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
 
+          $(document).on('click', '#faq table a', function() {
+            ga('send', 'event', 'FAQ', '点击', $($(this).find('span')).text());
+          });
+
         </script>
     </body>
 </html>

@@ -14,7 +14,7 @@ layout: default
 	          {% if modulo == '0' or forloop.first %}
 	            <tr>
 	          {% endif %}
-	          <td><a href="#{{ faq.id }}"><i class="fa fa-circle"></i> {{ faq.question }}</a></td>
+	          <td><a href="#{{ faq.id }}"><i class="fa fa-circle"></i> <span>{{ faq.question }}</span></a></td>
 	          {% if modulo == '1' or forloop.last %}
 	            </tr>
 	          {% endif %}
