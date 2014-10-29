@@ -1,0 +1,24 @@
+---
+layout: default
+title: "金数据帮助中心－搜索结果"
+---
+
+<div class="search">
+  <p>没找到？搜别的试试：</p>
+  <!--
+  <form role="search" method="get" class="form-search-home" action="https://www.google.com/search">
+      <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
+      <input type="hidden" name="sitesearch" value="help.jinshuju.net">
+      -->
+  <form role="search" method="get" class="form-search-home">
+      <input type="text" id="ts-search-input" class="search-field form-control" placeholder="输入关键字">
+      <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+      <div class="hot-words">
+        <a href="/articles/create-form.html">创建表单</a>
+        <a href="/articles/publish-form.html">发布表单</a>
+        <a href="/articles/view-data-report.html">分析数据</a>                
+      </div>
+  </form>
+</div>
+
+<div id='ts-results-container' class="fixed-width-inner" style="padding-top: 20px;"></div>

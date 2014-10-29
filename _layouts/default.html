@@ -69,6 +69,26 @@
         </script>
 
         <script>
+          var option = {
+            engineKey: '1d3b05d228479b7845e8',
+            resultContainingElement: '#ts-results-container',
+            renderStyle: 'new_page',
+            resultPageURL: '/search.html'
+          };
+          (function(w,d,t,u,n,s,e){
+            s = d.createElement(t);
+            s.src = u;
+            s.async = 1;
+            w[n] = function(r){
+            w[n].opts = r;
+            };
+            e = d.getElementsByTagName(t)[0];
+            e.parentNode.insertBefore(s, e);
+          })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+          _ts(option);
+        </script>
+
+        <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -81,7 +101,7 @@
           $(document).on('click', '#faq table a', function() {
             ga('send', 'event', 'FAQ', '点击', $($(this).find('span')).text());
           });
-
         </script>
+
     </body>
 </html>
