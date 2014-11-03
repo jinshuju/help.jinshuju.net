@@ -1,5 +1,5 @@
 ---
-layout: default_search
+layout: default
 title: "金数据帮助中心"
 ---
 
@@ -127,4 +127,24 @@ title: "金数据帮助中心"
       $(this).closest('form').removeClass('focus');
     });
   });
+</script>
+
+<script>
+  var option = {
+    engineKey: '1d3b05d228479b7845e8',
+    resultContainingElement: '#ts-results-container',
+    renderStyle: 'new_page',
+    resultPageURL: '/search.html'
+  };
+  (function(w,d,t,u,n,s,e){
+    s = d.createElement(t);
+    s.src = u;
+    s.async = 1;
+    w[n] = function(r){
+    w[n].opts = r;
+    };
+    e = d.getElementsByTagName(t)[0];
+    e.parentNode.insertBefore(s, e);
+  })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+  _ts(option);
 </script>

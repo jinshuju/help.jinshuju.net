@@ -78,8 +78,17 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
 
-          $(document).on('click', '#faq table a', function() {
-            ga('send', 'event', 'FAQ', '点击', $($(this).find('span')).text());
+          var trackFAQ = function() {
+            if(window.location.href.indexOf('/categories/faq.html') >= 0 && window.location.hash.length > 0) {
+              ga('send', 'event', 'FAQ', '点击', $(window.location.hash).text());
+              // console.log('hashchange', $(window.location.hash).text());
+            }
+          };
+          $(window).on ('hashchange', function(){
+            trackFAQ();
+          });
+          $(document).on('page:load ready', function(){
+            trackFAQ();
           });
         </script>
 
