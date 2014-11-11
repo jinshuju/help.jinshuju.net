@@ -12,7 +12,7 @@ category: api
 目前可供选择的附带参数包括表单中的单/多行文本、单选、多选、数字、邮箱、电话、日期以及网址等字段。如果表单中包含商品字段，则还可以附带序号和总价。您最多可以选择3个附带参数。
 
 在表单的 **设置** —— **数据提交** 页面的 **填写者填写完表单后** 选择“自动打开其他网页”，填写您要跳转的网址，并勾选需要附加的参数。
-	![select_fields](/images/redirect-with-params.png)
+	![select_fields](http://jinshuju-help-pics.b0.upaiyun.com/images/redirect-with-params.png)
 
 当用户填写了该表单并提交后，将会附带勾选的参数跳转到网页。  
 例如：  

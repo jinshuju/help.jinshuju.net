@@ -13,7 +13,7 @@ category: account
 当免费版无法满足您的需要时，您可以点击屏幕右上角的小齿轮，点击 **升级/续费**，选择您需要的套餐并使用充值的余额或支付宝支付。
 
 支付成功后套餐即时生效，服务期按 **非自然月** 计算（例如1月2日购买1个月，则2月2日到期）。
-	![](/images/upgrade-plan-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/upgrade-plan-1.png)
 
 ### 收费版续费
 
@@ -21,7 +21,7 @@ category: account
 付款成功后，套餐结束日期会顺延对应的非自然月（例如之前套餐在2月2日到期，续费一个月则顺延至3月2日到期）。
 
 您可以在 **个人中心** 里查看套餐结束日期。  
-	![](/images/upgrade-plan-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/upgrade-plan-2.png)
 
 ### 高版本降级到低版本
 

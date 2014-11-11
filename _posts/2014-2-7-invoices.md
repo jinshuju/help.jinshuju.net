@@ -13,11 +13,11 @@ category: account
 ### 申请增值税普通发票
 
 1. 点击页面右上角小齿轮，打开 **个人中心** —— **申请发票** 页面，点击“申请发票”。
-	![](/images/invoices-1.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/invoices-1.png) 
 2. 按要求填写信息，金额少于500元的需确认顺丰到付后才能提交申请。 
-	![](/images/invoices-2.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/invoices-2.png) 
 3. 您可以在 **申请发票** 页面查看已经申请的发票状态。
-	![](/images/invoices-3.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/invoices-3.png) 
 
 ### 申请增值税专用发票
 

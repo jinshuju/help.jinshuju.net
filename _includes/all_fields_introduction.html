@@ -1,7 +1,7 @@
 <div id="all_field_links">
   {% for field in site.data.fields %}
     <div class="field-item">
-    	<a href="#field_{{ field.id }}"><img src="/images/add-field-link-{{ field.id }}.png" alt="{{ field.name }}链接" /></a>
+    	<a href="#field_{{ field.id }}"><img src="http://jinshuju-help-pics.b0.upaiyun.com/images/add-field-link-{{ field.id }}.png" alt="{{ field.name }}链接" /></a>
     </div>
   {% endfor %}
 </div>
@@ -12,6 +12,6 @@
 <div class="fields-introduction">
 	<h3 id="field_{{ field.id }}">{{ field.name }}</h3>
 	{{ field.description | markdownify }}
-	<img src="/images/use-fields-{{ field.id }}.png" alt="{{ field.name }}" />
+	<img src="http://jinshuju-help-pics.b0.upaiyun.com/images/use-fields-{{ field.id }}.png" alt="{{ field.name }}" />
 </div>
 {% endfor %}

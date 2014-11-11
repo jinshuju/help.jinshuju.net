@@ -17,4 +17,4 @@ category: wechat
 
 微信增强包是一组独立的功能模块，仅针对需要的用户打开。  
 请仔细阅读 **个人中心** —— **微信增强** 中的功能介绍，并点击下面的按钮“确认开启微信增强包”开启。	
-	![](/images/enable-wechat-pack-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/enable-wechat-pack-1.png)

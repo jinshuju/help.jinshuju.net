@@ -15,7 +15,7 @@ category: payment
 1. 请阅读[支付宝官方文档](https://b.alipay.com/order/help/helpIndex.htm)，然后申请商家服务。
 
 2. 请选择签约商家服务中的“担保交易收款”或“双功能收款”。
-![](/images/apply-alipay-1.png)
+![](http://jinshuju-help-pics.b0.upaiyun.com/images/apply-alipay-1.png)
 
 3. 成功后，您可以获取PID、KEY用于金数据集成。
 

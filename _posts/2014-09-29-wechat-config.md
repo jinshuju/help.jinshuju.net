@@ -8,7 +8,7 @@ category: wechat
 若您想要使用自己的微信认证服务号来收集用户的微信信息，或向用户推送微信消息，则您需要对使用这个功能的表单配置微信公众号。
 
 1. 进入表单的 **设置** —— **微信增强**，当您选择了“通过您自己的微信认证服务号来收集”时，您需要在页面的下部填入您微信公众平台内的对应信息。
-	![](/images/wechat-config-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/wechat-config-1.png)
 
 2. 点击“保存并验证“，然后进入您的 **微信公众平台** —— **开发者中心**，将 **OAuth2.0网页授权** 设置为 `wx.jinshuju.net`。点击配置检测后会出现二维码扫描，通过后会显示检测成功。
-	![](/images/wechat-config-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/wechat-config-2.png)

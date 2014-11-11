@@ -14,7 +14,7 @@ category: publish
 
 对于 **单行文字**、**邮箱**、**网址**、**电话** 和 **手机**，您可以设置其“不能和已有数据重复”。  
 用户在提交时，我们会对其提交的数据进行校验，如果和对应数据条目的内容重复，则该表单将无法提交。
-	![](/images/field-verify-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/field-verify-1.png)
 
 ### 限制填写长度
 
@@ -24,4 +24,4 @@ category: publish
 * 对于 **多项选择** 和 **图片多选**，您可以限制最少/最多选几项。
 
 下图是一个设置多选可选数量的例子。
-	![](/images/field-verify-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/field-verify-2.png)

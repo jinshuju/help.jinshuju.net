@@ -12,42 +12,42 @@ category: notification
 ### 设置步骤
 
 1. 在您表单的 **设置** —— **提醒推送** 页面的上部，您可以查看短信余量及添加短信提醒。
-	![](/images/sms-push-setting.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-setting.png)
 
 2. 点击“添加短信提醒”，出现短信提醒自定义设置页面。
-	![](/images/sms-push-index.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-index.png)
 
 <h3 id="sms-push-condition">设置数据推送的条件</h3>
 
 * 推送所有数据  
 	表单新提交的数据都会通过短信推送自定义内容。
-	![](/images/sms-push-condition-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-condition-1.png)
 
 * 根据表单中某个字段的选项/值  
 	若表单新提交的数据中，某个字段的选项/值为选定值时，则通过短信推送自定义内容。
-	![](/images/sms-push-condition-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-condition-2.png)
 
 ### 设置发送时间
 
 * 提交后立即发送  
 	表单收到新数据后立即通过短信推送自定义内容。
-	![](/images/sms-push-when-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-when-1.png)
 
 * 在指定的时间发送 [[查看详细设置](scheduler.html)]  
 	如果您表单中有 **日期** 字段，您便可以设置短信在提交的日期 **之前**、**当天** 或 **之后** 某一个时间发送，如果您表单中不含有 **日期** 字段，则可以您可以设置在数据提交日 **之后** 发送。
-	![](/images/sms-push-when-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-when-2.png)
 	###### 此功能仅限扩展版和企业版用户使用。
 
 ### 设置接收手机号码
 	
 * 设置固定的手机号码  
 	您可以设置符合该条规则的短信都发送到指定的手机号码。
-	![](/images/sms-push-who-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-who-1.png)
 
 * 推送到表单中的手机字段  
 	您可以设置符合该条规则的短信都发送到表单中的手机字段。   
 	字段必须是来自于添加新字段内的手机字段。
-	![](/images/sms-push-who-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-who-2.png)
 
 ### 设置短信的签名
 
@@ -57,10 +57,10 @@ category: notification
 
 * 固定内容  
 	您可以输入固定的内容，如下图。
-	![](/images/sms-push-what-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-what-1.png)
 
 * 根据数据代码自定义短信内容，发送时代码会自动替换为提交数据中的对应内容。  
 	您可以使用数据代码来自定义短信内容，代码会在发送时自动替换为数据内容，这部分的效果可参考[提交后的提示文字定制](customize-texts.html#text-after)。
-	![](/images/sms-push-what-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-what-2.png)
 
 ##### 注意！请不要使用短信推送功能发送反动、暴力、营销类等与国家相关法律政策冲突的内容。具体请参考[短信使用规范](sms-policy.html)。违者将会被禁用短信功能，甚至封停账户。

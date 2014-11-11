@@ -6,7 +6,7 @@ category: quickstart
 ---
 
 当您保存了您新创建的表单后，您便可以看到表单的其他菜单以及发布链接啦！
-	![](/images/publish-form-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/publish-form-1.png)
 
 金数据向您提供了多种发布方式，通过打开表单地址、扫描二维码、[嵌入网页](embedded-form.html)或[发布到微博等社交平台](social-share.html)等多种方式，填写者都可以在自己的桌面电脑或手机上填写表单。
 
@@ -15,7 +15,7 @@ category: quickstart
 这里简要介绍一下如何将表单分享给微信好友/朋友圈。
 
 打开您表单的 **发布** 页面，用微信扫描表单的二维码。
-	![](/images/publish-form-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/publish-form-2.png)
 
 打开表单后，您就可以将表单分享给好友或分享到朋友圈啦！
 

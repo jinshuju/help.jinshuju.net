@@ -11,7 +11,7 @@ category: publish
 
 从技术上讲，任何投票都无法完全避免刷票。但通过一定的限制，能够提升刷票成本，降低刷票几率，从而降低垃圾数据的产生。在您表单的 **设置** —— **数据收集** 的上部，可以设置填写者权限。通过有针对性的设置，您可以有效地减少刷票概率。
 
-![](/images/data-quality-1.png)
+![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-quality-1.png)
 
 图中的设置有如下效果：
 
@@ -41,7 +41,7 @@ category: publish
 
 <h3 id="mobile-field">使用手机字段</h3>
 
-![](/images/data-quality-2.png)
+![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-quality-2.png)
 
 在您的表单中添加手机字段，通过合理的设置，也可以很好的减少刷票行为。
 

@@ -12,9 +12,9 @@ category: notification
 ### 对单个表单设置自动推送
 
 在您表单的 **设置** —— **提醒推送** 页面的中部，您可以开启 **系统邮件自动推送提醒** 功能，当表单有新数据提交时，我们会向您的注册邮箱发送一封含有新数据内容的邮件。
-	![](/images/new-record-notification-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/new-record-notification-1.png)
 
 ### 对多个表单设置自动推送
 
 在您的 **个人中心** —— **设置提醒** 页面，您可以一次性开启多个表单的系统邮件自动推送提醒。
-	![](/images/new-record-notification-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/new-record-notification-2.png)

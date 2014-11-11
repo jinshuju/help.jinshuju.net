@@ -10,7 +10,7 @@ category: api
 ###### 金数据目前仅支持HTTP Basic的验证方式。
 
 您可以在 **个人中心——API** 中，找到自己的API Key和Secret。
-	![](/images/api-auth.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/api-auth.png)
 您每次进行API调用时，都需要将API Key&Secret放到HTTP请求的Header中。  
 例如，使用curl来获得某个表单的定义：
 

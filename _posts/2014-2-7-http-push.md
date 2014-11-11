@@ -8,7 +8,7 @@ category: api
 ### 开启数据推送
 
 如果您想将某个表单新提交的数据推送到指定URL，您可以在表单的 **设置** —— **数据提交** 页面的底部找到将 **数据以JSON格式发送给第三方**，勾选开启后您将看到当前表单的字段对照表。
-	![](/images/http-push.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/http-push.png)
 填写地址并保存后，金数据会在表单收到新数据后向指定的地址以JSON格式POST该数据。
 
 ### 数据推送示例

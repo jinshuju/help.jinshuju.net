@@ -14,14 +14,14 @@ category: form
 1. 进入我的表单，找到想要复制的表单，进入表单的 **概述** 页面。
 
 2. 在页面的右上角，点击“复制表单”按钮。
-	![](/images/delete-form-3.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/delete-form-3.png)
 
 ### 删除表单
 
 当您不再需要某个表单，为了不让它占用存储空间和数据量，您可以删除它。
 
 1. 进入需要删除的表单的 **概述** 页面，点击页面底部的“删除表单”按钮。
-	![](/images/delete-form-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/delete-form-1.png)
 
 2. 您需要输入您的表单名以确认删除操作。
-	![](/images/delete-form-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/delete-form-2.png)

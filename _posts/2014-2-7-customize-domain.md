@@ -21,15 +21,15 @@ category: account
 
 1. 请在域名服务商后台将二级域名的CNAME记录设置为`cname.jinshuju.net`。  
 图示仅供参考，不同服务商后台略有不同。
-	![](/images/customize-domain-create_cname.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-domain-create_cname.png)
 
 2. 如果您已经成功设置域名指向，请耐心等待设置生效。  
 不同的域名服务商，生效时长不相同，一般最长不超过24小时。  
 检查生效方法：点Windows桌面左下角的“开始”，在搜索框中输入`cmd`点击运行，然后输入命令`ping xxx.您的域名.com`，若能成功获得IP地址，即为生效。
-	![](/images/customize-domain-ping.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-domain-ping.png)
 
 3. 进入 **个人中心** —— **绑定域名**，在页面的底部输入您之前设置的二级域名以及备案号。
-	![](/images/customize-domain-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-domain-1.png)
 
 4. 当您看到以下提示时，表明绑定成功。
-	![](/images/customize-domain-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-domain-2.png)

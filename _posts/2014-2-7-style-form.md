@@ -12,21 +12,21 @@ category: form
 金数据向免费用户提供了15套样式模版，向标准版及以上版本用户提供了30套样式模版。
 
 样式模版包含页眉和背景，您可以在 **样式** 页面的下部预览您的更改。
-	![](/images/style-1.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/style-1.png) 
 
 <h3 id="custom-header">自定义页眉和背景</h3>
 
 您可以自定义页眉文字，或者上传图片作为页眉（此功能仅向标准版及以上版本用户提供，上传的图片会占用您的存储空间）。
-	![](/images/style-2.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/style-2.png) 
 
 ### 自定义文字
 
 您可以定制表单各处的字体大小、颜色以及粗细，您的修改可以在 **样式** 页面中即时预览。
-	![](/images/style-3.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/style-3.png) 
 
 ### 手机浏览时的样式定制
 
 为了保证用户在移动端填写的体验，我们对手机浏览时的样式定制仅开放了背景设置，您的设置将在页面下部即时预览。
-	![](/images/style-4.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/style-4.png) 
 
 ###### 如果您想要在手机打开表单时也显示图片页眉，请勾选[自定义页眉](style-form.html#custom-header)中对应的选项。

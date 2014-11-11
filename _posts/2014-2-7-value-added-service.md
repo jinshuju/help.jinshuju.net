@@ -16,10 +16,10 @@ category: account
 #### 购买步骤
 
 1. 点击页面右上角小齿轮，打开 **个人中心**，您可以看到您的短信余量，点击“购买”。
-	![](/images/sms-recharge-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-recharge-1.png)
 
 2. 选择您要购买的短信数量，如果您之前有充值余额，可以使用余额支付。
-	![](/images/sms-recharge-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-recharge-2.png)
 
 3. 支付完成后，您的余量会即时更新，同时您的购买操作会记录在 **交易记录** 页面中。
 
@@ -34,7 +34,7 @@ category: account
 对于拓展版的用户，其每个表单可以收集10000条数据。若想扩容，则操作如下：
 
 点击要扩容的表单，进入 **概述** 页面，点击表单总数据后的“扩充”。
-	![](/images/value-added.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/value-added.png)
 
 ###### 扩容后表单的数据量变为20000条（基础10000条＋扩容10000条），但若扩展版套餐到期，则当前表单的数据量会变为10500条（基础500条＋扩容10000条）。扩容只针对单一表单，删除后扩容费用不会退还。
 

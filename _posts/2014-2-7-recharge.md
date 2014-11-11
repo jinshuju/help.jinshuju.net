@@ -14,12 +14,12 @@ category: account
 #### 充值步骤
 
 1. 登陆金数据后，点击页面右上角小齿轮，打开 **个人中心**，您可以看到您当前的余额，点击“充值”。
-	![](/images/recharge-1.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/recharge-1.png) 
 
 2. 根据个人需求选择充值金额，并使用支付宝在线支付。
 
 3. 点击 **交易记录**，您可以查看您账户下的所有交易记录。
-	![](/images/recharge-2.png) 
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/recharge-2.png) 
 
 ### 对公账户转账
 

@@ -11,14 +11,14 @@ category: payment
 ###### 包含商品字段的表单对外发布时均自动隐藏金数据Logo。
 
 1. 商品字段包括“配图商品”和“无图商品”。
-	![](/images/goods-field-add-field.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-add-field.png)
 
 2. 选择“有图商品”，添加每一件商品的名称／价格／图片／库存／描述。
-	![](/images/goods-field-edit-field.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-edit-field.png)
 
 3. 作为一份完整的订单，您可以在表单中添加“单行文本”、“手机”和“地址”，以增加姓名／电话／送货地址。
-	![](/images/goods-field-address-info.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-address-info.png)
 
 4. 一个订单就做好啦！  
 一起来看看效果吧：顾客在表单里选择商品及数量，提交前自动结算出总价，提交后自动减少库存。
-	![](/images/goods-field-total-price.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-total-price.png)

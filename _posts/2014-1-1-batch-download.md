@@ -10,7 +10,7 @@ category: data
 您可以将您的数据导出到Excel，以供您进一步编辑处理。
 
 1. 进入 **数据** 页面，页面底部可以“导出到Excel”。
-	![](/images/data-export-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-export-1.png)
 
 2. 配合 **显示/隐藏列** ([点我查看](data.html#show_hide_col))，您可以有选择地导出当前显示的列，或者直接导出所有列。
 
@@ -20,13 +20,13 @@ category: data
 ###### 您的附件名是由“数据序号\_字段序号_附件名”构成的。
 
 1. 进入 **数据** 页面，通过调整 **显示/隐藏列** 将上传文件字段对应的列显示出来。
-	![](/images/batch-download-1.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-download-1.png)
 
 2. 上传文件字段对应的列名后，有一个“附件批量下载按钮”，点击进入附件批量下载页面。
-	![](/images/batch-download-2.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-download-2.png)
 
 3. 您可以逐条下载，或将所有附件的链接保存为txt文件。
-	![](/images/batch-download-3.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-download-3.png)
 
 4. 以迅雷为例，您只需将txt文件内容批量拷贝到“新建下载任务”内，便可以批量下载附件了。
-	![](/images/batch-download-4.png)
+	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-download-4.png)
