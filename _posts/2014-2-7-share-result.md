@@ -25,5 +25,5 @@ category: publish
 3. 设置好了，让我们看看效果吧！打开页面提示输入查看密码。
    ![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-result-pass.png)
 
-4. 密码正确，显示数据页面，您可以通过右上角切换到报表页面。
+4. 密码正确，显示数据页面，您可以通过右上角切换到报表页面，也可以点击右下角的“50条/页”切换每页显示的数据条数。
    ![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-result-data.png)
