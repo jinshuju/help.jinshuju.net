@@ -400,10 +400,16 @@ a {
         color: #4A90E2;
         padding: 5px 5px 5px 0;
         vertical-align: middle;
-        i {
-          font-size: 5px;
+        &:before {
+          content: '';
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          @include border-radius(5px);
+          background: #4A90E2;
+          margin-right: 5px;
           vertical-align: middle;
-          margin-top: -2px;
+          margin-top: -3px;
         }
       }
     }

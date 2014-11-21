@@ -31,7 +31,7 @@ title: "金数据帮助中心"
           {% if modulo == '0' or forloop.first %}
             <tr>
           {% endif %}
-          <td><a href="/categories/faq.html#{{ faq.id }}"><i class="fa fa-circle"></i> <span>{{ faq.question }}</span></a></td>
+          <td><a href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a></td>
           {% if modulo == '3' or forloop.last %}
             </tr>
           {% endif %}
