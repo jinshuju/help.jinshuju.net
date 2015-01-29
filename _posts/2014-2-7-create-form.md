@@ -17,12 +17,15 @@ category: quickstart
 
 ### 创建空白表单
 
-您也可以直接“创建新表单”，下面将带领大家创建一个通讯录。
+您也可以自己创建表单，进入主页面，点击“创建新表单”，您就可以创建自己的表单了，下面将带领大家创建一个通讯录。
 
 1. 填写表单的标题和描述。
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/create-form-3.png)
 
-2. 点击“添加新字段”，我们向您提供了23种字段（[点我查看各种字段的使用场景](use-fields.html)）。
+2. 点击“添加新字段”为表单。
+    ![](/images/create-form-5.jpg)
+
+    我们向您提供了23种字段（[点我查看各种字段的使用场景](use-fields.html)）。
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/use-fields-all.png)
 
 3. 对于必须要填写的字段，可以设置“必须填”。
