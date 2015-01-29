@@ -27,11 +27,13 @@ category: payment
 这种情况需要您登录微信商户平台，进入“账户设置”->“账户信息”->“微信支付商户号” ，查看填写的是否正确。
 
 ### 4.支付域名未获授权
-![](http://jinshuju-help-pics.b0.upaiyun.com/images/wxpay-faq-4.png)
+<img src="http://jinshuju-help-pics.b0.upaiyun.com/images/wxpay-faq-4.png" width='300'>
+
 这通常是由于您的设置支付授权目录设置错误引起的。
 这种情况一般是您的支付授权目录添加成了“http://”,应该改成“https://”。
 
 ### 5.支付失败
-![](http://jinshuju-help-pics.b0.upaiyun.com/images/wxpay-faq-5.png)
+<img src="http://jinshuju-help-pics.b0.upaiyun.com/images/wxpay-faq-5.png" width='300'>
+
 这通常是由于您的绑定域名后设置支付授权目录设置错误引起的。
 这种情况一般是您的支付授权目录添加成了“https://您的域名/f/”,应该改成“http://您的域名/f/”。
