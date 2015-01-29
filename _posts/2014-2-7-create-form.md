@@ -23,7 +23,7 @@ category: quickstart
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/create-form-3.png)
 
 2. 点击“添加新字段”为表单。
-    ![](/images/create-form-5.jpg)
+    ![](http://jinshuju-help-pics.b0.upaiyun.com/images/create-form-5.jpg)
 
     我们向您提供了23种字段（[点我查看各种字段的使用场景](use-fields.html)）。
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/use-fields-all.png)
