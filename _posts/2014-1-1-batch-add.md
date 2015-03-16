@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "逐条、批量追加数据"
-date:   2014-04-19 10:06:18
+title:  "逐条追加数据"
+date:   2014-04-19 10:06:19
 category: data
 ---
 
-为满足您给表单追加数据的需要，我们向您提供了追条追加或从Excel批量追加数据两种方式。
+为满足您给表单追加数据的需要，金数据为您提供了从数据页面添加某条数据的功能。
 
 ### 逐条追加数据
 
@@ -14,13 +14,3 @@ category: data
 
 2. 类似于填写表单，您可以点击“提交并再填一份”多次添加数据。
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/add-data-2.png)
-
-### 批量追加数据
-
-##### 如果您的表单中含有图片单选、图片多选、地理字段、矩阵单选 、两级下拉框、评分等字段或者表单中某两个字段的名称一样，都会导致无法批量追加。
-
-1. 进入 **数据** 页面，点击“从Excel追加数据”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-add-1.png)
-
-2. 选择您要上传的文件，设置项目，金数据会根据您的数据类型自动匹配。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-add-2.png)
