@@ -27,97 +27,74 @@ category: api
 
 `curl -u api_key:api_secret https://jinshuju.net/api/v1/forms/ex27t2`
 
+###### 请注意，以下JSON内容中，选项类的部分在数据库中以`name`和`value`两部分组成。   
+
 您获得的JSON表单定义类似如下：
 
 {% highlight json %}
 {
-    "name": "客户拜访记录",
-    "description": "<p>在这里记录客户的访问情况</p>",
+    "name": "意见反馈",
+    "description": "<p>当您希望从顾客那里获得反馈时，可以使用该表单收集</p>",
     "fields": [
         {
-            "field_7": {
-                "label": "客户名称",
-                "type": "single_line_text",
-                "notes": "",
-                "private": false,
-                "validation": {
-                    "required": true
-                }
-            }
-        },
-        {
-            "field_6": {
-                "label": "拜访日期",
-                "type": "date",
-                "notes": "",
-                "private": false,
-                "validation": {}
-            }
-        },
-        {
-            "field_5": {
-                "label": "被拜访人",
-                "type": "single_line_text",
-                "notes": "",
-                "private": false,
-                "validation": {
-                    "required": true
-                }
-            }
-        },
-        {
-            "field_2": {
-                "label": "被拜访人职位",
-                "type": "single_line_text",
-                "notes": "",
-                "private": false,
-                "validation": {}
-            }
-        },
-        {
-            "field_4": {
-                "label": "联系渠道",
-                "type": "drop_down",
+            "field_9": {
+                "label": "您对我们的服务满意么？",
+                "type": "single_choice",
                 "notes": "",
                 "private": false,
                 "validation": {},
                 "choices": [
-                    "见面",
-                    "邮件",
-                    "电话",
-                    "网络"
+                    {
+                        "name": "非常满意",
+                        "value": "zyRl"
+                    },
+                    {
+                        "name": "满意",
+                        "value": "8Q6B"
+                    },
+                    {
+                        "name": "一般",
+                        "value": "hPWR"
+                    },
+                    {
+                        "name": "不满意",
+                        "value": "s8PE"
+                    },
+                    {
+                        "name": "非常不满意",
+                        "value": "fLdR"
+                    }
                 ],
                 "allow_other": false
             }
         },
         {
-            "field_1": {
-                "label": "联系方式",
-                "type": "single_line_text",
-                "notes": "<p>填 电话、邮件地址等</p>",
-                "private": false,
-                "validation": {}
-            }
-        },
-        {
-            "field_8": {
-                "label": "成单可能性",
-                "type": "drop_down",
+            "field_10": {
+                "label": "您最喜欢的部分是",
+                "type": "multiple_choice",
                 "notes": "",
                 "private": false,
                 "validation": {},
                 "choices": [
-                    "N/A",
-                    "30%",
-                    "50%",
-                    "80%"
+                    {
+                        "name": "服务1",
+                        "value": "CIoI"
+                    },
+                    {
+                        "name": "服务2",
+                        "value": "A8li"
+                    },
+                    {
+                        "name": "服务3",
+                        "value": "MIWn"
+                    }
                 ],
                 "allow_other": false
             }
         },
         {
-            "field_3": {
-                "label": "备注",
+            "field_11": {
+                "label": "您希望给我们提出的建议是？",
                 "type": "paragraph_text",
                 "notes": "",
                 "private": false,
@@ -125,44 +102,12 @@ category: api
             }
         },
         {
-            "field_10": {
-                "label": "企业类别",
-                "type": "drop_down",
-                "notes": "",
+            "field_8": {
+                "label": "希望获得联系",
+                "type": "single_line_text",
+                "notes": "如果您希望我们联系您，可以留下您的微博、邮箱或者QQ号",
                 "private": false,
-                "validation": {},
-                "choices": [
-                    "大型欧美外企",
-                    "中小欧美外企",
-                    "大型国企",
-                    "中小国企",
-                    "大型民企",
-                    "中小民企",
-                    "大型日台企业",
-                    "中小日台企业",
-                    "政府机构"
-                ],
-                "allow_other": false
-            }
-        },
-        {
-            "field_9": {
-                "label": "行业类型",
-                "type": "drop_down",
-                "notes": "",
-                "private": false,
-                "validation": {},
-                "choices": [
-                    "制造业",
-                    "软件业",
-                    "会展业",
-                    "金融业",
-                    "旅游业",
-                    "文化传媒",
-                    "政府机构",
-                    "其他"
-                ],
-                "allow_other": false
+                "validation": {}
             }
         }
     ]

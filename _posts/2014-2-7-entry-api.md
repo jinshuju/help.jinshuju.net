@@ -19,12 +19,13 @@ Accept: application/json
 Content-Type: application/json
 {% endhighlight %}
 
-数据提交请求应该是一个满足表单定义的JSON格式。例如：
+数据提交请求应该是一个满足表单定义的JSON格式。
+###### 需要注意的是，从2015年3月25日起，金数据的单、多选，图片单、多选，下拉框，两级下拉框以及矩阵单选，其选项有`name`与`value`两个部分组成，我们建议您在构建JSON数据时，以`value`提交，一个例子如下：
 
 {% highlight json %}
 {
-  "field_7": "大显国际",
-  "field_5": "陈经理"
+  "field_9": "hPWR",
+  "field_10": "CIoI"
 }
 {% endhighlight%}
 
@@ -33,7 +34,7 @@ Content-Type: application/json
 {% highlight json %}
 {
     "error": "bad_request",
-    "error_description": "{\"field_7\":[\"客户名称 必须填\"],\"field_5\":[\"被拜访人 必须填\"]}"
+    "error_description": "{\"field_9\":[\"您对我们的服务满意么？ 必须填\"],\"field_10\":[\"您最喜欢的部分是 必须填\"]}"
 }
 {% endhighlight%}
 
