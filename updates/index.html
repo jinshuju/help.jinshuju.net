@@ -3,19 +3,24 @@ layout: default
 title: "功能更新"
 ---
 
-<div class="fixed-width-inner">
-	<h1 style="color:#333;font-weight: normal;margin: 40px 0px 10px;">功能更新</h1>
-	<p style="color:#999">每一天，我们都在努力</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      	<h1 style="color:#333;font-weight: normal;margin: 40px 0px 10px;">功能更新</h1>
+      	<p style="color:#999">每一天，我们都在努力</p>
 
-	<div class="updates">
-	  {% for page in site.categories.update %}
-	  <div class="update clearfix">
-	    <h3>{{ page.date | date: "%F"}}: {{ page.title }}
-	    <a href="{{ page.url }}" class="update-link"><i class="fa fa-external-link"></i></a>
-	    </h3>
-	    <div class="update-content article">{{ page.content }}</div>
-	  </div>
-	  {% endfor %}
+      	<div class="updates">
+      	  {% for page in site.categories.update %}
+      	  <div class="update clearfix">
+      	    <h3>{{ page.date | date: "%F"}}: {{ page.title }}
+      	    <a href="{{ page.url }}" class="update-link"><i class="fa fa-external-link"></i></a>
+      	    </h3>
+      	    <div class="update-content article">{{ page.content }}</div>
+      	  </div>
+      	  {% endfor %}
 
-	</div>
+      	</div>
+        
+    </div>
+  </div>
 </div>

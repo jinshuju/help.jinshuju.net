@@ -3,55 +3,50 @@ layout: default
 title: "金数据帮助中心"
 ---
 
-<div class="search">
-  <p>没耐心？试试搜索：</p>
-  <!--
-  <form role="search" method="get" class="form-search-home" action="https://www.google.com/search">
-      <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
-      <input type="hidden" name="sitesearch" value="help.jinshuju.net">
-      -->
-  <form role="search" method="get" class="form-search-home">
-      <input type="text" id="ts-search-input" class="search-field form-control" placeholder="输入关键字">
-      <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
-      <div class="hot-words">
-        <a href="/articles/create-form.html">创建表单</a>
-        <a href="/articles/publish-form.html">发布表单</a>
-        <a href="/articles/view-data-report.html">分析数据</a>                
-      </div>
-  </form>
-</div>
+<div class="container">
+  <div class="jumbotron">
+    <div class="search">
+      <p>没耐心？试试搜索：</p>
 
-<div id="faq" class="clearfix">
-  <div class="fixed-width-inner">
-    <h2>常见问题</h2>
-    <table>
-      <tbody>
-        {% for faq in site.data.faqs limit:8 %}
-          {% capture modulo %}{{forloop.index0 | modulo:4}}{% endcapture %}
-          {% if modulo == '0' or forloop.first %}
-            <tr>
-          {% endif %}
-          <td><a href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a></td>
-          {% if modulo == '3' or forloop.last %}
-            </tr>
-          {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
-    <a class="check-more" href="/categories/faq.html">查看更多</a>
+      <form role="search" method="get" class="form-search-home" action="https://www.google.com/search">
+          <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
+          <input type="hidden" name="sitesearch" value="help.jinshuju.net">
+        </form>
+  </div>
   </div>
 </div>
 
-<div class="categories clearfix">
-  <h2>功能帮助</h2>
-  <table>
-    <tbody>
-      {% for cat in site.category_dict %}
-        {% capture modulo %}{{forloop.index0 | modulo:3}}{% endcapture %}
-        {% if modulo == '0' or forloop.first %}
-          <tr>
-        {% endif %}
-        <td>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>常见问题</h2>
+    </div>
+  </div>
+  <div class="row">    
+    {% for faq in site.data.faqs limit:8 %}
+      <div class="col-md-3">
+      <a href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a>
+      </div>
+    {% endfor %}    
+  </div>        
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>功能帮助</h2>
+    </div>
+  </div>
+  
+  <div class="row">
+    {% for cat in site.category_dict %}
+      {% capture modulo %}{{forloop.index0 | modulo:3}}{% endcapture %}
+      {% if modulo == '0'%}
+      </div>
+      <div class="row">
+      {% endif %}
+        <div class="col-md-4 col-sm-6">
           <div class="category">
             <h3>
               {{ cat[1] }}
@@ -78,51 +73,41 @@ title: "金数据帮助中心"
               {% endfor %}
             </ul>
           </div>
-        </td>
-        {% if modulo == '2' or forloop.last %}
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<div class="contact-us">
-  <div class="fixed-width-inner">
-    <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
-    <div class="contacts clearfix">
-      <div class="contact">
-        <div class="contact-inner">
-          <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
-          <p class="channel"><a href="mailto:support@jinshuju.net">support@jinshuju.net</a></p>
-          <p class="explain">我们会回复每一封邮件</p>
         </div>
-      </div>
-      <div class="contact">
-        <div class="contact-inner">
-          <p class="channel" style="text-align:center"><a href="http://support.jinshuju.net/request/guest" class="btn_main">提交工单</a></p>
-          <p class="explain">任何时间可提交！工作时间30分钟响应！</p>
-        </div>
-      </div>
-      <div class="contact">
-        <div class="contact-inner">
-          <h3><i class="fa fa-phone"></i> 电话</h3>
-          <p class="channel">400-6606-892</p>
-          <p class="explain">周一到周五，9:00-18:00</p>
-        </div>
-      </div>
-      
-      <!-- <div class="contact">
-        <div class="contact-inner">
-          <h3><i class="fa fa-qq"></i> 客服QQ</h3>
-          <p class="channel">1728106147</p>
-          <p class="explain">周一至周五，9:00-18:00</p>
-        </div>
-      </div> -->
-    </div>
+    {% endfor %}
   </div>
 </div>
 
+
+<div class="container">
+  <div class="row">
+    <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
+  </div>
+  <div class="row">
+    
+    <div class="col-md-4">
+      <div class="contact-inner">
+        <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
+        <p class="channel"><a href="mailto:support@jinshuju.net">support@jinshuju.net</a></p>
+        <p class="explain">我们会回复每一封邮件</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="contact-inner">
+        <p class="channel" style="text-align:center"><a href="http://support.jinshuju.net/request/guest" class="btn btn-default">提交工单</a></p>
+        <p class="explain">任何时间可提交！工作时间30分钟响应！</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="contact-inner">
+        <h3><i class="fa fa-phone"></i> 电话</h3>
+        <p class="channel">400-6606-892</p>
+        <p class="explain">周一到周五，9:00-18:00</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 
 <script type="text/javascript">

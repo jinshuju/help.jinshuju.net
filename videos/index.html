@@ -15,6 +15,15 @@ videos:
 
 <h1>视频帮助</h1>
 
+<video id="really-cool-video" class="video-js vjs-default-skin" controls
+ preload="auto" width="640" height="264" poster="really-cool-video-poster.jpg"
+ data-setup='{}'>
+  <source src="http://1456.vod.myqcloud.com/1456_e889435a359711e5bfef41cf196d4e1b.f40.mp4" type='video/mp4'>
+  <p class="vjs-no-js">
+    请升级浏览器查看本视频
+  </p>
+</video>
+
 <div class="videos clearfix">
   {% for v in page.videos %}
   <div class="video">

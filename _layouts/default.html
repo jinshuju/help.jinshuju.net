@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="icon" href="/images/help-favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/syntax.css">
         <!-- Custom CSS -->
@@ -17,38 +16,43 @@
         <script src="/js/stickUp.js"></script>
     </head>
     <body>
-      <div class="page_body">      
-         <div class="header">
-            <div class="fixed-width-inner">
-              <h1 class="title">
-                <a href="/">{{ site.name }}</a>
-              </h1>
-              <div class="right">
-              <!-- 
-                <a href="/club/">小金俱乐部</a>
-                <span class="separator">&nbsp;|&nbsp;</span>
-                 -->
-                <b><a href="http://support.jinshuju.net/request/guest">提交工单</a></b>
-                <span class="separator">&nbsp;|&nbsp;</span>
-                <a href="http://support.jinshuju.net/request/listview">查看工单处理进度</a>
-                <span class="separator">&nbsp;|&nbsp;</span>
-                <a href="/updates/">功能更新</a>
-                <span class="separator">&nbsp;|&nbsp;</span>
-                <a href="https://jinshuju.net/">返回金数据</a>
-              </div>
-            </div>          
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">导航</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">金数据帮助中心</a>
           </div>
-
-          <div class="site">
-            {{ content }}
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">主页</a></li>
+              <li><a href="/videos">视频教程</a></li>
+              <li><a href="/updates">功能更新</a></li>
+              <li><a href="#contact">提交工单</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../navbar/">返回金数据</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+      
+      {{ content }}
+      
+      <div class="container">
+          <div class="footer">
+              <div class="footer-content">
+                <span>&copy;</span> 2015 <a href="https://jinshuju.net/">金数据</a>
+                <a href="/articles/contribution-guide.html">贡献指南</a>
+              </div>          
           </div>
-        </div>
-        <div class="footer">
-          <div class="footer-content">
-            <span>&copy;</span> 2015 <a href="https://jinshuju.net/">金数据</a>
-            <!-- a href="/articles/contribution-guide.html">贡献指南</a -->
-          </div>          
-        </div>
+      </div>
+      
 
         <script type="text/javascript">
           $(function(){
