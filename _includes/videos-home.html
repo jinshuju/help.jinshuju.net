@@ -1,19 +1,31 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2>快速上手</h2>
+      <h2>视频快速上手</h2>
     </div>
   </div>
   <div class="row">    
     {% for v in site.data.videos limit:8 %}
-      <div class="col-md-3 col-xs-6">
+      <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="panel panel-default">
           <div class="panel-body">
-            <img class="img-responsive" src="{{ v.poster }}">
+            <a href="javascript:;" class="play-video" data-video="{{ v.url }}" data-poster="{{ v.poster }}">
+            <img class="img-responsive" src="{{ v.icon }}">
+          </a>
           </div>
           <div class="panel-footer">{{ v.title }}</div>
         </div>
       </div>
-    {% endfor %}    
+    {% endfor %}
   </div>        
+</div>
+
+<div id="mask"></div>
+<div id="video-popover">
+  <div class="text-right" style="padding-bottom: 1px">
+    <a id="close-video" href="javascript:;">关闭</a>
+  </div>  
+  <video id="video" autoplay="true" controls preload="auto"  width="1024" height="640" poster="">
+    <source src="" type='video/mp4'>
+  </video>
 </div>
