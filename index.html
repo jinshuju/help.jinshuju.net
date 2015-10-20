@@ -38,7 +38,7 @@ title: "金数据帮助中心"
                 {% if page.category == cat[0] %}
                   <li>
                     <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}
-                    {% if page.tags contains 'new'%} <span style="background-color: #FF9B00; padding: 2px 4px; border-radius: 3px;color: #fff;font-size:12px">新功能</span> {% endif %}
+                    {% if page.tags contains 'new'%} <span class="label label-success">新功能</span>{% endif %}
                     {% if page.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
                     {% if page.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
                     {% if page.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}

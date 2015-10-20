@@ -11,8 +11,6 @@ $link-hover-color: #689cd0;
 $link-hover-decoration: none;
 $jumbotron-bg: transparent;
 
-$navbar-margin-bottom: 0px;
-
 $panel-body-padding: 0px;
 
 $searchbox-bg: #7ACAE4;
@@ -55,6 +53,7 @@ footer {
 
 .searchbox {
   background-color: $searchbox-bg;
+  margin-top: -20px;
 }
 
 #mask {
@@ -88,4 +87,27 @@ footer {
     padding: 4px 8px;
     text-align: right;
   }
+}
+
+.category-posts {
+  position: absolute;
+  display: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  left: 77px;
+  box-shadow: 0 1px 2px #ccc;
+  z-index: 1000;
+  
+  h3 {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+.copyright {
+  border-top: 1px solid #ccc;
+  padding: 20px 0px;
+  margin-top: 60px;
 }

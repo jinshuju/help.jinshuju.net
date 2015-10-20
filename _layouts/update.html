@@ -2,17 +2,20 @@
 layout: default
 ---
 
-<div class="fixed-width-inner">
-  <div class="info clearfix">
-    <div class="page_info">
-      功能更新：{{ page.date | date: "%F" }}
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="page_info">
+        功能更新：{{ page.date | date: "%F" }}
+      </div>
+      
+      <div class="article">
+        <h2>{{ page.title }}</h2>
+        <div class="post">
+          {{ content }}
+        </div>  
+      </div>
+      
     </div>
-  </div>
-
-  <div class="article">
-    <h2>{{ page.title }}</h2>
-    <div class="post">
-      {{ content }}
-    </div>  
   </div>
 </div>

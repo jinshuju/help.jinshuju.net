@@ -4,39 +4,41 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      
-        <div class="info clearfix">
-          <div class="page_info">
-            {% if site.category_dict[page.category] %}
-              <a href="/">功能帮助</a>&nbsp;&nbsp;/&nbsp;
-              <a href="#categories-{{page.category}}" class="category-link">{{ site.category_dict[page.category] }} <i class="fa fa-caret-down"></i></a>&nbsp;&nbsp;/&nbsp;
-            {% endif %}
-            {{ page.title }}  
-          </div>
-          {% if site.categories.[page.category] %}
-            <div class="category-posts">
-              <h3>分类文章</h3>
-              <ul class="posts">
-                {% assign current_page = page %}
-                {% assign pages = site.categories.[page.category] %}
-                {% for page in pages %}
-                  {% if current_page.id == page.id %}
-                    {% assign next_i = forloop.index0 | plus: 1 %}
-                    {% assign prev_i = forloop.index0 | minus: 1 %}
-                    {% assign next_post = pages[next_i] %}
-                    {% if prev_i >= 0 %}
-                      {% assign prev_post = pages[prev_i] %}
-                    {% endif %}
-                  {% endif %}
-                  <li>
-                    <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}</a>        
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
+      <div class="page_info">
+        {% if site.category_dict[page.category] %}
+          <a href="/">功能帮助</a>&nbsp;&nbsp;/&nbsp;
+          <a href="#categories-{{page.category}}" class="category-link">{{ site.category_dict[page.category] }} <i class="fa fa-caret-down"></i></a>&nbsp;&nbsp;/&nbsp;
+        {% endif %}
+        {{ page.title }}  
+      </div>
+      {% if site.categories.[page.category] %}
+        <div class="category-posts">
+          <h3>分类文章</h3>
+          <ul class="posts">
+            {% assign current_page = page %}
+            {% assign pages = site.categories.[page.category] %}
+            {% for page in pages %}
+              {% if current_page.id == page.id %}
+                {% assign next_i = forloop.index0 | plus: 1 %}
+                {% assign prev_i = forloop.index0 | minus: 1 %}
+                {% assign next_post = pages[next_i] %}
+                {% if prev_i >= 0 %}
+                  {% assign prev_post = pages[prev_i] %}
+                {% endif %}
+              {% endif %}
+              <li>
+                <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}</a>        
+              </li>
+            {% endfor %}
+          </ul>
         </div>
-
+      {% endif %}
+    </div>
+  </div>
+  
+  <div class="row">
+  
+    <div class="col-md-9">
         <div class="article scroll-area">
           <h1>{{ page.title }}</h1>
           <div class="post">
@@ -51,10 +53,12 @@ layout: default
             {% endif %} 
           </div>
         </div>
-      
-      <div class="go-to-top" title="回到顶部"><i class="fa fa-arrow-circle-up"></i></div>
-      
     </div>
+    
+    <div class="col-md-3 sidebar">
+      <div class="go-to-top" title="回到顶部"><i class="fa fa-arrow-circle-up"></i></div>
+    </div>
+    
   </div>
 </div>
 
@@ -91,7 +95,7 @@ layout: default
           quickMenuUlDom.append(liDom);
         });
         quickMenuDom.append(quickMenuUlDom);
-        $(".article").append(quickMenuDom);
+        $(".sidebar").append(quickMenuDom);
         // $(".article").addClass('affix');
         $('.quick-menu').stickUp({
           parts: idParts,
