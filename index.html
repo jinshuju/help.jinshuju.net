@@ -5,7 +5,7 @@ title: "金数据帮助中心"
 
 {% include search.html %}
 
-<!-- {% include videos-home.html %} -->
+{% include videos-home.html %}
 
 <div class="container">
 
@@ -39,6 +39,7 @@ title: "金数据帮助中心"
                   <li>
                     <a href="{{ page.url }}"><i class="fa fa-chevron-right"></i> {{ page.title }}
                     {% if page.tags contains 'new'%} <span class="label label-success">新功能</span>{% endif %}
+                    {% if page.tags contains 'video'%} <i class="fa fa-video-camera"></i>{% endif %}
                     {% if page.tags contains 'H'%} <i class="fa fa-exclamation" style="color: #ff0000"></i> {% endif %}
                     {% if page.tags contains 'M'%} <i class="fa fa-exclamation" style="color: #ff8000"></i> {% endif %}
                     {% if page.tags contains 'L'%} <i class="fa fa-exclamation" style="color: #ffcc66"></i> {% endif %}
