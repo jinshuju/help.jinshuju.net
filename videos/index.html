@@ -1,35 +1,36 @@
 ---
 layout: default
 title: "视频"
-videos: 
-  - 
-    id: XNTQwMDk0ODYw
-    title: 视频帮助标题1
-  - 
-    id: XNzE0Nzk3NjEy
-    title: 第二个视频。
-  -
-    id: XNTExODIyOTgw
-    title: 使用Excel导入
 ---
 
-<h1>视频帮助</h1>
-
-<video id="really-cool-video" class="video-js vjs-default-skin" controls
- preload="auto" width="640" height="264" poster="really-cool-video-poster.jpg"
- data-setup='{}'>
-  <source src="http://1456.vod.myqcloud.com/1456_e889435a359711e5bfef41cf196d4e1b.f40.mp4" type='video/mp4'>
-  <p class="vjs-no-js">
-    请升级浏览器查看本视频
-  </p>
-</video>
-
-<div class="videos clearfix">
-  {% for v in page.videos %}
-  <div class="video">
-    <p>{{ v.title }}</p>
-    <embed src="http://player.youku.com/player.php/sid/{{ v.id }}/v.swf" allowFullScreen="true" quality="high" width="300" height="250" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-    
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>视频教程</h1>
+    </div>
   </div>
-  {% endfor %}
+  <div class="row">    
+    {% for v in site.data.videos limit:8 %}
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <a href="javascript:;" class="play-video" data-video="{{ v.url }}" data-poster="{{ v.poster }}">
+            <img class="img-responsive" src="{{ v.icon }}">
+          </a>
+          </div>
+          <div class="panel-footer">{{ v.title }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>        
+</div>
+
+<div id="mask"></div>
+<div id="video-popover">
+  <div class="text-right" style="padding-bottom: 1px">
+    <a id="close-video" href="javascript:;">关闭</a>
+  </div>  
+  <video id="video" autoplay="true" controls preload="auto"  width="1024" height="640" poster="">
+    <source src="" type='video/mp4'>
+  </video>
 </div>

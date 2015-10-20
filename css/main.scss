@@ -10,8 +10,11 @@ $link-color: #4183C4;
 $link-hover-color: #689cd0;
 $link-hover-decoration: none;
 $jumbotron-bg: transparent;
+$line-height-base: 1.5;
 
 $panel-body-padding: 0px;
+$font-size-h1: 2em;
+$font-size-h3: 1.17em;
 
 $searchbox-bg: #7ACAE4;
 
@@ -33,27 +36,48 @@ footer {
   @include img-responsive;
 }
 
-.posts {
-  li {
-    list-style-type: none;
-    a {
-      color: #333;
-      i {
-        font-size: 10px; color: #9C9C9C; vertical-align: middle; 
-      }
-      &:hover {
-        color: #4A90E2;
-        i {
-          color: #4A90E2;
-        }
-      }
-    }
+.article {
+  h5, h6 {
+    background-color: #ffdd87;
+    border: #ffce54;
+    color: #8a6d3b;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 0px;
   }
+  
+  ol li {
+    position: relative;
+    list-style: none;
+    padding-left: 25px;
+  }
+  
+  h3 {
+    border-bottom: 1px solid #dddddd;
+    font-weight: normal;
+    color: #325d72;
+    margin: 20px 0px 10px 0px;
+  }
+  
+  
 }
 
+.category h3 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #4A90E2;
+  margin: 15px 0px 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
+  
 .searchbox {
   background-color: $searchbox-bg;
-  margin-top: -20px;
+  margin-top: -21px;
 }
 
 #mask {

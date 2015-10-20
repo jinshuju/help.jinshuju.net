@@ -750,3 +750,33 @@ a.club-link {
 
 .go-to-top i {
 }
+
+
+.article { padding-right: 200px; margin-top: 20px; margin-bottom: 40px; }
+.article h2 { font-size: 30px; font-weight: normal; line-height: 150%; }
+.article h3 { border-bottom: 1px solid #dddddd; font-weight: normal; color: #325d72; margin: 20px 0px 10px 0px; }
+.article h4 { font-size: 16px; }
+.article h5, .article h6 { background-color: #ffdd87; border: #ffce54; color: #8a6d3b; font-size: 12px; font-weight: normal; padding: 15px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin: 10px 0px; }
+.article h6 { background-color: #b9df90; border: #a0d468; color: #3c763d; }
+.article img { max-width: 100%; border: 1px solid #ccc; margin: 10px 0px 20px; }
+.article td, .article th { border: 1px solid #ccc; padding: 4px; }
+.article th { background-color: #f7f7f7; }
+.article a:hover { text-decoration: underline; }
+.article.affix { position: relative; }
+
+.quick-menu { position: absolute; top: 30px; width: 180px; margin-left: 730px; }
+.quick-menu.stuckMenu { position: absolute !important; top: 30px !important; }
+.quick-menu.isStuck { position: fixed !important; top: 0 !important; }
+.quick-menu .menu-item { background: none; line-height: 120%; }
+.quick-menu .menu-item a { font-size: 12px; color: #999; text-decoration: none; }
+.quick-menu .menu-item:hover, .quick-menu .menu-item.active { background: transparent url(/images/bullet-li.png) 0 0.3em no-repeat; }
+.quick-menu .menu-item:hover a, .quick-menu .menu-item.active a { color: #4183C4; }
+
+.post ol { counter-reset: li; }
+.post ol li { position: relative; list-style: none; padding-left: 25px; }
+
+.post ul { padding-left: 10px; }
+
+.article ul li { background: transparent url(/images/bullet-li.png) 0 0.4em no-repeat; padding-left: .7em; margin: 5px 0; list-style: none; }
+
+.article .post ol > li:before { -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; background: #ff8533; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #FFF; content: counter(li); counter-increment: li; display: block; font-size: 12px; font-weight: bold; left: 0px; line-height: 18px; position: absolute; top: 0; margin: 0; padding: 1px 0 0; text-align: center; width: 20px; }
