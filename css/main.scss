@@ -4,12 +4,55 @@
 @charset "utf-8";
 
 
-$font-family-thin: "Pingfang SC", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-
+$font-family-thin: "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 $font-family-base: $font-family-thin;
+$link-color: #4183C4;
+$link-hover-color: #689cd0;
+$link-hover-decoration: none;
+$jumbotron-bg: transparent;
+
+$navbar-margin-bottom: 0px;
+
+$panel-body-padding: 0px;
+
+$searchbox-bg: #7ACAE4;
+
 
 @import 'bootstrap/bootstrap';
 
+* { margin: 0; padding: 0; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+footer {
+  background-color: #f3f3f3;
+}
+
 .post img {
   @include img-responsive;
+}
+
+.posts {
+  li {
+    list-style-type: none;
+    a {
+      color: #333;
+      i {
+        font-size: 10px; color: #9C9C9C; vertical-align: middle; 
+      }
+      &:hover {
+        color: #4A90E2;
+        i {
+          color: #4A90E2;
+        }
+      }
+    }
+  }
+}
+
+.searchbox {
+  background-color: $searchbox-bg;
 }

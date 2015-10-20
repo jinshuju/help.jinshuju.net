@@ -3,33 +3,9 @@ layout: default
 title: "金数据帮助中心"
 ---
 
-<div class="container">
-  <div class="jumbotron">
-    <div class="search">
-      <p>没耐心？试试搜索：</p>
+{% include search.html %}
 
-      <form role="search" method="get" class="form-search-home" action="https://www.google.com/search">
-          <input type="search" value="" name="q" class="search-field form-control" placeholder="输入关键字">
-          <input type="hidden" name="sitesearch" value="help.jinshuju.net">
-        </form>
-  </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h2>常见问题</h2>
-    </div>
-  </div>
-  <div class="row">    
-    {% for faq in site.data.faqs limit:8 %}
-      <div class="col-md-3">
-      <a href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a>
-      </div>
-    {% endfor %}    
-  </div>        
-</div>
+{% include videos-home.html %}
 
 <div class="container">
 
@@ -46,7 +22,7 @@ title: "金数据帮助中心"
       </div>
       <div class="row">
       {% endif %}
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="category">
             <h3>
               {{ cat[1] }}
@@ -78,37 +54,37 @@ title: "金数据帮助中心"
   </div>
 </div>
 
-
-<div class="container">
-  <div class="row">
-    <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
-  </div>
-  <div class="row">
+<footer>
+  <div class="container">
+    <div class="row">
+      <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
+    </div>
+    <div class="row">
     
-    <div class="col-md-4">
-      <div class="contact-inner">
-        <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
-        <p class="channel"><a href="mailto:support@jinshuju.net">support@jinshuju.net</a></p>
-        <p class="explain">我们会回复每一封邮件</p>
+      <div class="col-md-4">
+        <div class="contact-inner">
+          <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
+          <p class="channel"><a href="mailto:support@jinshuju.net">support@jinshuju.net</a></p>
+          <p class="explain">我们会回复每一封邮件</p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="contact-inner">
-        <p class="channel" style="text-align:center"><a href="http://support.jinshuju.net/request/guest" class="btn btn-default">提交工单</a></p>
-        <p class="explain">任何时间可提交！工作时间30分钟响应！</p>
+      <div class="col-md-4">
+        <div class="contact-inner">
+          <p class="channel" style="text-align:center"><a href="http://support.jinshuju.net/request/guest" class="btn btn-default">提交工单</a></p>
+          <p class="explain">任何时间可提交！工作时间30分钟响应！</p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="contact-inner">
-        <h3><i class="fa fa-phone"></i> 电话</h3>
-        <p class="channel">400-6606-892</p>
-        <p class="explain">周一到周五，9:00-18:00</p>
+      <div class="col-md-4">
+        <div class="contact-inner">
+          <h3><i class="fa fa-phone"></i> 电话</h3>
+          <p class="channel">400-6606-892</p>
+          <p class="explain">周一到周五，9:00-18:00</p>
+        </div>
       </div>
-    </div>
     
+    </div>
   </div>
-</div>
-
+</footer>
 
 <script type="text/javascript">
   $(function(){
