@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "分享表单到微博、QQ空间或人人"
-date:   2014-09-29 12:00:08
+date:  2014-09-29 12:00:08
 category: publish
 ---
 

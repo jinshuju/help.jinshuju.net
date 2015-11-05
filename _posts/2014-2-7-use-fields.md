@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "字段介绍及使用范例"
-date: 2014-09-26 12:00:09
-category: form
+date: 2014-04-08 12:12:10
+category: quickstart
 tags: edited
 ---
 

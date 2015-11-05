@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "遵守短信使用规范，避免短信余额被冻结"
+title:  "收不到短信怎么办"
 date:   2014-09-29 12:00:05
 category: notification
 ---

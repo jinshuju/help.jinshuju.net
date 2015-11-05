@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  注册金数据
-date:   2014-04-08 12:12:12
+title:  注册与登陆金数据
+date:   2014-04-08 12:12:18
 category: quickstart
 ---
 
@@ -29,3 +29,10 @@ category: quickstart
 	![](http://jinshuju-help-pics.b0.upaiyun.com/images/register-goldendata-3.png)
 
 您的金数据账号就注册好啦！下面来创建您的第一个表单吧！
+
+
+### 登陆金数据
+
+注册以后您就可以根据自己的注册方式选择相应的登陆。
+
+###### 若您采用账户邮箱登录时忘记密码，可以在登录页面点击“忘记密码”进行新密码设置。若您登陆后需要修改密码，可以登陆成功后在个人中心修改密码。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "字段的移动、复制与删除"
-date:   2014-09-26 12:00:08
+date:    2014-09-26 12:00:12
 category: form
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "应用样式让表单更美观"
+title:  "为表单设置不同的样式"
 date:   2014-09-26 12:00:00
 category: form
 ---

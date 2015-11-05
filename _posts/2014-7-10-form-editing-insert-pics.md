@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "在表单里插入图片"
+title:  "在表单里插入图片、纯文本以及超链接"
 date:   2014-09-26 12:00:10
 category: form
 ---

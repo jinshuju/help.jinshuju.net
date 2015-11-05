@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "如何确保收到邮件提醒"
+title:  "收不到邮件怎么办"
 date:   2014-09-29 12:00:06
 category: notification
 ---

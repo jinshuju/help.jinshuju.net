@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "获取高质量数据"
-date:   2014-09-29 12:00:05
+date:   2014-09-29 12:00:00
 category: publish
 ---
 

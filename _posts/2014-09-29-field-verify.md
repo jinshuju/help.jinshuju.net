@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用字段校验限制数据收集"
-date:   2014-09-29 12:00:07
+date:   2014-09-29 12:00:02
 category: publish
 ---
 
