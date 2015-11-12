@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "绑定域名"
-date:   2014-03-12 12:12:12
+title:  "如何绑定域名"
+date:   2014-09-29 12:00:08
 category: account
 ---
 
