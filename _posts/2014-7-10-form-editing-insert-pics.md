@@ -10,9 +10,9 @@ category: form
 ###### 上传的本地图片仅支持gif、jpg/jpeg、png格式，且单张图片不能大于1MB；单个表单最大只能上传10张图片，上传的图片会占用存储空间。
 
 1. 在编辑框里点击“插入/编辑图片”按钮。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/form-editing-insert-pics-1.png)
+	![](/images/form-editing-insert-pics-1.png)
 
 2. 点击上传本地图片后选择图片上传，或者您也可以粘贴图片的外链地址，您的图片会在下面的区域内即时预览。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/form-editing-insert-pics-2.png)
+	![](/images/form-editing-insert-pics-2.png)
 
 3. 单击插入的图片，您可以通过拖拽图片四周的尺寸控点（小方块）来调整图片大小。

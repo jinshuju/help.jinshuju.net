@@ -10,14 +10,14 @@ category: data
 ### 提交人的详细信息
 
 您可以在数据详情中，查看到提交人的ID（如果提交人也是金数据用户，那么此处会显示他的昵称）、提交时间以及填写设备、系统、浏览器和IP。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-operations-1.png)
+	![](/images/data-operations-1.png)
 
 ### 数据的修改、删除以及打印
 
 在数据详情中，您可以通过点击 **修改**、**删除** 以及 **打印** 来完成您的操作。
 
 * 点击 **修改**，您将进入数据修改页面，点击 **提交** 后修改生效。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-operations-2.png)
+	![](/images/data-operations-2.png)
 
 * 点击 **删除** 时，您会收到确认提醒。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-operations-3.png)
+	![](/images/data-operations-3.png)

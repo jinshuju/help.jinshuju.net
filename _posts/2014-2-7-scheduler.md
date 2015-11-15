@@ -20,7 +20,7 @@ category: notification
 ### 详细设置
 
 在[自定义邮件推送提醒](email-push.html)或[自定义短信推送提醒](sms-push.html)的设置页面中，均可以设置定时提醒。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-push-when-2.png)
+	![](/images/sms-push-when-2.png)
 
 * 日期：可以选择是数据提交当天，或者根据表单中的某个 **日期** 字段作为基础，以此设定之前或之后的几天、几周或几个月。
 * 时间：设定具体的小时和分钟数。
@@ -28,7 +28,7 @@ category: notification
 ### 查看计划中的任务
 
 当有数据提交时，如果满足您预先设置的自定义短信/邮件推送规则，您便可以在 **设置** —— **数据提醒** 页面的对应位置找到一条计划中的任务。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/scheduler.png)
+	![](/images/scheduler.png)
 上图是一个短信定时提醒的例子，您可以看到短信计划发送任务中的内容及发送时间，邮件定时提醒与此类似。
 
 ### 取消任务

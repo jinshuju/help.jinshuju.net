@@ -27,10 +27,10 @@ category: quickstart
 ### 操作步骤
 
 1. 当您首次登陆金数据时，我们会自动向您的邮箱内发送验证邮件。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/free-trial-1.png)
+	![](/images/free-trial-1.png)
 
 2. 如果您的链接已经实效或想更改注册邮箱，请在 **个人中心** —— **账户信息** 页面的 **账户信息** 中，点击“验证”以重新发送验证邮件，或点击“更改”以更改登录邮箱。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/free-trial-2.png)
+	![](/images/free-trial-2.png)
 
 3. 验证了注册邮箱后，在 **个人中心** —— **账户信息** 页面的 **账户概览** 里点击“免费试用3天标准版”，您就可以体验付费版本包含的字段和服务了。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/free-trial-3.png)
+	![](/images/free-trial-3.png)

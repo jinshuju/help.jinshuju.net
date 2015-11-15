@@ -5,20 +5,20 @@ date:   2014-09-29 12:00:10
 category: payment
 ---
 
-商品字段是金数据为小电商和中小企业定制的一种特殊的字段，它允许消费者选择数量，提交表单时给出总价，并实时减少预先设置的库存。  
+商品字段是金数据为小电商和中小企业定制的一种特殊的字段，它允许消费者选择数量，提交表单时给出总价，并实时减少预先设置的库存。
 商品字段是金数据的收费功能，您能创建包含商品字段的表单数量因版本的不同而不同，标准版可以创建1个，拓展版可以创建5个，而企业版则无限制。
 
 ###### 包含商品字段的表单对外发布时均自动隐藏金数据Logo。
 
 1. 商品字段包括“配图商品”和“无图商品”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-add-field.png)
+	![](/images/goods-field-add-field.png)
 
 2. 选择“有图商品”，添加每一件商品的名称／价格／图片／库存／描述。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-edit-field.png)
+	![](/images/goods-field-edit-field.png)
 
 3. 作为一份完整的订单，您可以在表单中添加“单行文本”、“手机”和“地址”，以增加姓名／电话／送货地址。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-address-info.png)
+	![](/images/goods-field-address-info.png)
 
-4. 一个订单就做好啦！  
+4. 一个订单就做好啦！
 一起来看看效果吧：顾客在表单里选择商品及数量，提交前自动结算出总价，提交后自动减少库存。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/goods-field-total-price.png)
+	![](/images/goods-field-total-price.png)

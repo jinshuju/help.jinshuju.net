@@ -16,7 +16,7 @@ category: publish
 ### 详细设置
 
 在您表单的 **发布** —— **表单地址** 页面的上部，直接访问地址内即有扩展属性设置，您可以参考含有扩展属性的表单地址批量生成链接（例如您有100个代理人，您便可以批量生成100个链接）。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/extended-attr-index.png)
+	![](/images/extended-attr-index.png)
 
 ### 注意事项
 

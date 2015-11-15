@@ -10,16 +10,16 @@ category: account
 
 <h3 id="sms-push">短信推送</h3>
 
-金数据支持新数据的短信提醒，您可以根据个人需求，选择符合设定条件的数据以短信的方式提醒。  
+金数据支持新数据的短信提醒，您可以根据个人需求，选择符合设定条件的数据以短信的方式提醒。
 提醒内容可以自定义，详见[自定义短信推送提醒](sms-push.html)。短信按`0.1元/条`收费，最少购买10元（100条）。
 
 #### 购买步骤
 
 1. 点击页面右上角小齿轮，打开 **个人中心**，您可以看到您的短信余量，点击“购买”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-recharge-1.png)
+	![](/images/sms-recharge-1.png)
 
 2. 选择您要购买的短信数量，如果您之前有充值余额，可以使用余额支付。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/sms-recharge-2.png)
+	![](/images/sms-recharge-2.png)
 
 3. 支付完成后，您的余量会即时更新，同时您的购买操作会记录在 **交易记录** 页面中。
 
@@ -34,11 +34,11 @@ category: account
 对于拓展版的用户，其每个表单可以收集10000条数据。若想扩容，则操作如下：
 
 点击要扩容的表单，进入 **概述** 页面，点击表单总数据后的“扩充”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/value-added.png)
+	![](/images/value-added.png)
 
 ###### 扩容后表单的数据量变为20000条（基础10000条＋扩容10000条），但若扩展版套餐到期，则当前表单的数据量会变为10500条（基础500条＋扩容10000条）。扩容只针对单一表单，删除后扩容费用不会退还。
 
 ### 数据恢复
 
-若您想要恢复您误删的数据或表单，您可以联系QQ客服1728106147或发邮件到[support@jinshuju.net](mailto:support@jinshuju.net)。  
+若您想要恢复您误删的数据或表单，您可以联系QQ客服1728106147或发邮件到[support@jinshuju.net](mailto:support@jinshuju.net)。
 数据恢复暂行收费标准为`500元/单`，请谨慎执行删除操作！

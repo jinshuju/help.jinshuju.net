@@ -12,21 +12,21 @@ category: publish
 * 报名者输入“姓名”和“手机”来查询报名审核状态
 
 以报名状态查询为例，我们首先要制作一个含有“审核状态”下拉框/单项选择的表单。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-search-form.png)
+	![](/images/share-search-form.png)
 
 ### 制表小贴士
 
 1. 用户在填写时不应出现“审核状态”，则可将“审核状态”标记为 **仅表单管理员和数据管理员可见**。
-	
+
 2. 用户填写后，如果立即查询，则结果应显示“审核中”，故“审核状态”的下拉框默认值应为“审核中”。
 
 ### 对外查询设置流程
 
 1. 进入 **设置** —— **结果分享**，**对外查询** 设置位于该页面的下部。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-search-1.png)
+	![](/images/share-search-1.png)
 
 2. 勾选 **公开：所有人均可查询**，然后设置查询条件，您最多可以设置2个查询条件，并且还可以向查询者展示一段不超过100字的公告；同时您也可以设置查询结果中要显示的内容。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-search-2.png)	
+	![](/images/share-search-2.png)
 
 3. 保存设置后，打开该查询页面，则查询者填写了自己的姓名和手机之后，就能看到自己的“审核状态”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/share-search-3.png)
+	![](/images/share-search-3.png)

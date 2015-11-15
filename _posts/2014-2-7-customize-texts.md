@@ -10,14 +10,14 @@ category: form
 ### 表单中的提示文字
 
 进入表单的 **设置** —— **提示文案** 页面，您可以修改表单各个地方的提示文字。下面是一个栗子：
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-texts-1.png)
+	![](/images/customize-texts-1.png)
 
 <h3 id="text-after">提交后的提示文字</h3>
 
 您如果想修改提交后的提示文字，则需要在 **设置** —— **数据提交** 页面下设置，具体步骤如下：
 
 1. 点击展示提交文字，您不仅可以插入纯文本信息，也可以利用表单中的字段定制该文字。例如下图便是一个定制的栗子。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-texts-2.png)
+	![](/images/customize-texts-2.png)
 
 2. 保存设置后，我们来看看效果吧！
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/customize-texts-3.png)
+	![](/images/customize-texts-3.png)

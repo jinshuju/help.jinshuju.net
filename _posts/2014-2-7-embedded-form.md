@@ -15,22 +15,22 @@ category: publish
 
 	**该嵌入方式可以自适应高度，推荐使用。**
 
-	点击“复制代码”后，将代码粘贴至网页HTML期望的位置即可。  
+	点击“复制代码”后，将代码粘贴至网页HTML期望的位置即可。
 
 2. 以iFrame的方式嵌入
 
 	**该嵌入方式不能自适应高度，请谨慎使用。**
 
-	点击“复制代码”后，将代码粘贴至网页HTML期望的位置即可。  
+	点击“复制代码”后，将代码粘贴至网页HTML期望的位置即可。
 
 3. 在WordPress中嵌入
 
-	点击“复制代码”后，在博客后台打开 **插件** —— **添加插件**，搜索"jinshuju"并安装启用，然后在编辑文章时插入代码。  	
+	点击“复制代码”后，在博客后台打开 **插件** —— **添加插件**，搜索"jinshuju"并安装启用，然后在编辑文章时插入代码。
 
-![](http://jinshuju-help-pics.b0.upaiyun.com/images/embedded-index.png)
+![](/images/embedded-index.png)
 
 ### 定制参数
 
-1. 链接中的`banner`可以设置为`show`或`hide`，对应显示页眉或隐藏页眉。	
+1. 链接中的`banner`可以设置为`show`或`hide`，对应显示页眉或隐藏页眉。
 
 2. 链接中的`background`可以设置为`white`或`transparent`，对应为白色背景或透明背景。

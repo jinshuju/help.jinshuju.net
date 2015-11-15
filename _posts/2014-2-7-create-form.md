@@ -36,15 +36,15 @@ tags: video
 	![](/images/create-form-3.jpg)
 
 2. 然后点击“创建空白表单”。
-	![](/images/create-form-6.jpg)	
+	![](/images/create-form-6.jpg)
 
 3. 然后，你就可以为你的表单输入名称以及描述，点击“添加新字段”为表单添加不同的字段。
-    ![](http://jinshuju-help-pics.b0.upaiyun.com/images/create-form-5.jpg)
+    ![](/images/create-form-5.jpg)
     金数据为您提供了23种不同的字段，[点这里](http://help.jinshuju.net/articles/use-fields.html)查看23种不同字段的常规用法。
 
 
 4. 对于必须要填写的字段，可以设置“必须填”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/create-form-4.png)
+	![](/images/create-form-4.png)
 
 创建完表单记得保存后，保存后[点这里](http://help.jinshuju.net/articles/publish-form.html)查看如何把表单发布出去。
 

@@ -17,10 +17,10 @@ category: form
 #### 当您设置[填表后跳转](redirect-with-params.html)时，确认码页面将无法显示，请通过自定义短信邮件推送。
 
 1. 在您表单的 **设置** —— **数据收集** 页面的中部，您可以通过开关开启确认码，并可以按照您的用途更改确认码的名称以及位数。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/generate-code-1.png)
+	![](/images/generate-code-1.png)
 
 2. 我们来看看效果，当填写者提交表单后，会向其展示确认码。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/generate-code-2.png)
+	![](/images/generate-code-2.png)
 
 ##### 一旦第一条确认码生成，您就无法再次更改确认码的名称和长度。
 
@@ -28,7 +28,7 @@ category: form
 
 如果您担心提交者遗忘该确认码，您也可以通过自定义短信/邮件来推送确认码，确认码也是一个独立的数据代码。
 
-* 关于如何自定义短信，请参考[自定义短信推送提醒](sms-push.html)。  
+* 关于如何自定义短信，请参考[自定义短信推送提醒](sms-push.html)。
 * 关于如何自定义邮件，请参考[自定义邮件推送提醒](email-push.html)。
 
-![](http://jinshuju-help-pics.b0.upaiyun.com/images/generate-code-3.png)
+![](/images/generate-code-3.png)

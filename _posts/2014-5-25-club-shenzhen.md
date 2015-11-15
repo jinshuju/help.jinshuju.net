@@ -6,17 +6,17 @@ category: club
 ---
 
 ### 五月深圳，东边雨来西边晴。
-![Shenzhen](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-1.jpg)
+![Shenzhen](/images/club-shenzhen-1.jpg)
 
 第一天到深圳的时候，大雨倾盆，潮湿的空气像果冻一样把我和我背来的金数据画册包裹起来，呼吸不得（额，这是怎样的即视感）。传说中的3W咖啡馆在南山，场地负责人是个香港小伙子，来内地创业，简单的交流之后，基本上就确定了第二天的活动现场图：一个小规模的深度交流会，能看到在网上活跃的人真实地走进生活之后，这种感觉还真是好呢（说好的网友见面会呢，摔！）
 
-![poster](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-2.png)
+![poster](/images/club-shenzhen-2.png)
 活动在星期天下午2点开始，大家陆陆续续从深圳或深圳附近的城市来到活动现场。老天好脾气地给了个艳阳天。创始人Michael前一天晚上还在嗓子发炎，第二天居然精神饱满地准备好了演讲和工作坊，敬业精神赞一个。不得不说一句的是，大部分的朋友都是从外地来深圳参加活动的，对我们来讲，这绝不仅仅是“你们的用户太热情了这么简单”。
 
 ### 米高的分享
 Michael做的第一个演讲是金数据的过去和未来，以及一些只想要和来参与活动的人儿们分享的数据。
 这可是小金俱乐部的大彩蛋，只有来参加活动的人才知道，对没错，我不会在这里告诉你的。想知道这些故事，自己来吧。
-![Michael](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-3.png)
+![Michael](/images/club-shenzhen-3.png)
 
 ### 明星用户是怎样炼成的
 随后的环节是“明星用户是怎样炼成的”，来自未然服饰的乔森给我们分享了他真在做的事情：为服装设计师搭建一个属于自己的圈子。他觉得现在的企业太过于注重“流程化设计”，导致了厂商生产出来的并不是有设计灵魂的艺术品，而是成千上万件“淘宝爆款”，国内也没有沉淀出自己的香奈儿和古奇。乔森希望他的设计师圈子，可以树立起新的风尚，让设计师能够成为“服装设计师”。
@@ -27,18 +27,18 @@ Michael做的第一个演讲是金数据的过去和未来，以及一些只想�
 ### 酒店微信订单
 桔XX酒店开启了国内连锁酒店的微信业务，这股春风好像已经开始悄悄吹热了传统行业初探互联网的试水战役。这个案例当中，我们的用户使用金数据来帮忙在微信上进行订房的活动。
 
-![hotel](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-hotelqrcode.png)
+![hotel](/images/club-shenzhen-hotelqrcode.png)
 
 ### 蜡笔小新性格趣味测试
 哈哈，我不多说，你们扫一下这个二维码来测吧。你们也可以猜猜金数据团队内部最多的是哪位角色
 
-![test](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-testingqrcode.png)
+![test](/images/club-shenzhen-testingqrcode.png)
 
 ### 用料采购表
 传统的餐饮行业，充满油烟、食物香味，或手工或打印的下料单在这样热热闹闹的后厨被混淆、抹油、甚至是遗忘。
 恩，如果有这样一个下料采购表，好很多了吧。
 
-![res](http://jinshuju-help-pics.b0.upaiyun.com/images/club-shenzhen-resqrcode.png)
+![res](/images/club-shenzhen-resqrcode.png)
 
 
 ## 其实，我们知道的比你少。

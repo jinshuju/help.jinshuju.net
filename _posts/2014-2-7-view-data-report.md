@@ -8,7 +8,7 @@ category: quickstart
 当您的表单收集了数据后，您就可以查看数据和报表了。
 
 在 **[数据页面](data.html)** 查看已经收集的数据。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/data-show_hidden_col.png)
+	![](/images/data-show_hidden_col.png)
 
 在 **[报表页面](report.html)** 查看选项对应的图表。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/report-result_chart.png)
+	![](/images/report-result_chart.png)

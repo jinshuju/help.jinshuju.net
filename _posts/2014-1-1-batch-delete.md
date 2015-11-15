@@ -8,9 +8,9 @@ category: data
 当您收到大量无效数据或希望删除数据以释放空间时，为了节约您的时间和精力，我们向您提供了批量删除功能。
 
 1. 进入 **数据** 页面，在页面底部点击“删除”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-delete-1.png)
+	![](/images/batch-delete-1.png)
 
 2. 在您要删除的数据条目前打勾，然后点击页面底部的“删除”即可。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-delete-2.png)
+	![](/images/batch-delete-2.png)
 
 ##### 数据删除后将不可恢复，请再三确认后再删除，或者提前导出excel，以确保不会带给您不必要的麻烦。

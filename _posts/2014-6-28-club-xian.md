@@ -9,17 +9,17 @@ category: club
                                                            —— 西安站活动结束后记
 
 金数据的团队分布在西安、成都、北京，6月所有的团队成员都回到西安，在家门口办活动的感觉，就是有自信。没有舟车劳顿，繁杂的场地会务工作，我们就在自己的办公室开Party。在全年系列活动里，这次是唯一能够见到所有团队成员的小金俱乐部。
-![xian](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-1.jpg)
+![xian](/images/club-xi'an-1.jpg)
 
 我们的午餐来自西安创业团队“爱缤果”的特别支持，“红油钵钵鸡” 和 特制卤味。
-![lunch](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-2.jpg)
+![lunch](/images/club-xi'an-2.jpg)
 
 ### 团队的分享
 老规矩，一张图解释这个环节。你必须要参与到一场真实的活动中，才能获得金数据只在这个场合当中分享的内容。
-![Michael](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-3.jpg)
+![Michael](/images/club-xi'an-3.jpg)
 
 ### 90后，正能量和非主流
-![Liang](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-4.jpg)
+![Liang](/images/club-xi'an-4.jpg)
 这个群体每天都在被标签化，他们突出的性格特征被大众认识。最多的一些词儿是“非主流“、“标新立异”、“自我中心”。
 
 刘克亮是90后，大一，工科生。和人们固定认知里工科生“木讷而羞涩”不同，他非常自信。说话节奏飞快，配合着丰富的肢体语言。亮子同学的分享获得了在场所有人的掌声。
@@ -35,21 +35,21 @@ category: club
 
 设计问卷是一门学问，好的问题设置能够帮助你优化数据结构，让数据报表更具有说服力。针对不同人群，应该有不同的问题设置。让一个每天看韩剧的软妹子告诉你，目前最红火的户外商品是什么，显然是不太科学的（此处省略200字）。
 扫描这个二维码，你可以看到专业的问卷设计专家如何优化自己的表单。
-![xian](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-wenjuan.png)
+![xian](/images/club-xi'an-wenjuan.png)
 
 ### 社区成员运营
 
 一个成熟的UGC社区，应该能够满足用户的求知欲和表达欲。在微信的平台，信息传递的方式是一对一，碎片化。大量的信息充斥在各类平台，如果你的用户不愿意在让人揪心的网络热词里搜寻一条有价值的信息，可以尝试用两个表单来管理用户的问题和反馈。
 
-![xian](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-question.png) ![xian](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-anwser.png)
+![xian](/images/club-xi'an-question.png) ![xian](/images/club-xi'an-anwser.png)
 
 ### 产品资料微信查询
 
 在PC产品体验店，产品相关信息多半印在小册子或者传单上。当客人到店时，销售人员一拥而上进行产品讲解。这是传统的营销引导，而新的体验正伴随新通讯方式产生。尝试设想一下，将这样的一个二维码配在电子产品旁边，通过微信扫描自助查询。既减轻销售人员的工作，也免去了客户随时“被跟踪”的压力。
-![xian](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-product.png)
+![xian](/images/club-xi'an-product.png)
 
 ###我们想要听到你的声音
-![workshio](http://jinshuju-help-pics.b0.upaiyun.com/images/club-xi'an-5.jpg)
+![workshio](/images/club-xi'an-5.jpg)
 下个月，我们会在成都做一场小金俱乐部。不论你来自哪个行业，在做着什么样的事情，希望你能加入我们分享你的故事。如果你对小金俱乐部有其他期待，欢迎给我们写信：support@jinshuju.net
 
 

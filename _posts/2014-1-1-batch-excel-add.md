@@ -13,9 +13,9 @@ category: data
 
 
 1. 进入 **数据** 页面，点击“从Excel追加数据”。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-add-1.png)
+	![](/images/batch-add-1.png)
 
 2. 选择您要上传的文件，设置项目，金数据会根据您的数据类型自动匹配。
-	![](http://jinshuju-help-pics.b0.upaiyun.com/images/batch-add-2.png)
+	![](/images/batch-add-2.png)
 
 ##### 温馨小提示：Excel的格式一定要和你做的表单一致哦！如果您不知道怎么把现有数据做成可以导入的Excel表格，您可以手动添加几条数据，然后通过Excel导出数据，记得删除不需要的字段，您就知道如何制作这个Excel了。
