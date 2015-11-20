@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "逐条及通过Excel批量追加数据"
+title:  "逐条添加数据"
 date:   2014-04-19 10:06:19
 category: data
 ---
