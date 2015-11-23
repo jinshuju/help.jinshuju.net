@@ -28,8 +28,19 @@ category: account
 检查生效方法：点Windows桌面左下角的“开始”，在搜索框中输入`cmd`点击运行，然后输入命令`ping xxx.您的域名.com`，若能成功获得IP地址，即为生效。
 	![](/images/customize-domain-ping.png)
 
-3. 进入 **个人中心** —— **绑定域名**，在页面的底部输入您之前设置的二级域名以及备案号。
+3. 进入 **个人中心** —— **账户概览**，点击“自定义域名”。
 	![](/images/customize-domain-1.png)
 
-4. 当您看到以下提示时，表明绑定成功。
+4. 在弹出框页面的底部输入您之前设置的二级域名以及备案号。
 	![](/images/customize-domain-2.png)
+
+5. 当您看到绑定成功提示时，则自动跳回到个人中心页面，如果未成功请重新绑定。
+	![](/images/customize-domain-3.png)	
+
+
+
+
+
+
+
+

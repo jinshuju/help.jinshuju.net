@@ -7,7 +7,7 @@ category: account
 ### 套餐购买
 
 金数据为您提供了具有强大功能的专业版。如果您需要购买，进入个人中心后点击“升级套餐”。
-
+![](/images/recharge-1.png)
 
 ### 充值
 
@@ -16,18 +16,18 @@ category: account
 #### 充值步骤
 
 1. 登陆金数据后，点击页面右上角小齿轮，打开 **个人中心**，您可以看到您当前的余额，点击“充值”。
-	![](/images/recharge-1.png)
+	![](/images/recharge-2.png)
 
 2. 根据个人需求选择充值金额，并使用支付宝在线支付。
 
-3. 点击 **交易记录**，您可以查看您账户下的所有交易记录。
-	![](/images/recharge-2.png)
+3. 点击 **消费历史**，您可以查看您账户下的所有交易记录。
+	![](/images/recharge-3.png)
 
 ##### 充值的金额不会过期，不能提现。
 
 
 ### 对公账户转账
 
-请联系QQ客服1728106147或[support@jinshuju.net](mailto:support@jinshuju.net)索取我司账户，核准到账后您可以充值或购买套餐。
+请在帮助中心提交工单或者直接发送邮件[support@jinshuju.net](mailto:support@jinshuju.net)索取我司账户，核准到账后您可以充值或购买套餐。
 
 ##### 金额小于500元的需要收取5%手续费。
