@@ -10,8 +10,6 @@ category: api
 
 您可以在 **个人中心** —— **API** 来开启您的API支持及[获取API Key/Secret](api-auth.html)。
 
-###### API模块仅对标准版及以上版本用户开放，3天标准版试用期内无法开启API模块。
-
 ### API访问规则
 
 * 所有的数据格式为JSON
