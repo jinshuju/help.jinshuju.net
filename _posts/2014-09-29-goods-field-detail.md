@@ -17,5 +17,5 @@ category: payment
 3. 在弹出的“详细规格”框中，填写颜色及对应的价格及库存。
 	![](/images/goods-field-detail-3.png)
 
-4. 让我们发布后，看看的效果吧！不同的颜色对应不同的库存和价格。
+4. 让我们发布后，看看的效果吧！
 	![](/images/goods-field-detail-4.png)
