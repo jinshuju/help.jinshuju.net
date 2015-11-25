@@ -16,7 +16,7 @@
   icon: /images/videos/intro-4.png
   poster: /images/videos/create-form.png
 
-id: rules
+- id: rules
   title: 字段规则跳转规则
   url: http://1456.vod.myqcloud.com/1456_19cb655491a711e5bfef41cf196d4e1b.f40.mp4
   icon: /images/videos/intro-3.png
