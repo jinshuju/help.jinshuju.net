@@ -14,7 +14,7 @@ title: "金数据帮助中心"
       <h2>功能帮助</h2>
     </div>
   </div>
-
+  
   <div class="row">
     {% for cat in site.category_dict %}
       {% capture modulo %}{{forloop.index0 | modulo:3}}{% endcapture %}
@@ -61,7 +61,7 @@ title: "金数据帮助中心"
       <h2>上面的文章没能解决问题？没关系，联系我们！</h2>
     </div>
     <div class="row">
-
+    
       <div class="col-md-4">
         <div class="contact-inner">
           <h3><i class="fa fa-envelope"></i> 客服邮件</h3>
@@ -75,7 +75,14 @@ title: "金数据帮助中心"
           <p class="explain">任何时间可提交！工作时间30分钟响应！</p>
         </div>
       </div>
-
+      <div class="col-md-4">
+        <div class="contact-inner">
+          <h3><i class="fa fa-phone"></i> 电话</h3>
+          <p class="channel">400-6606-892</p>
+          <p class="explain">周一到周五，9:00-18:00</p>
+        </div>
+      </div>
+    
     </div>
   </div>
 </footer>
