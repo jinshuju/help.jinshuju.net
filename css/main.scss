@@ -14,6 +14,7 @@ $line-height-base: 1.5;
 
 $panel-body-padding: 0px;
 $font-size-h1: 2em;
+$font-size-h2: 20px;
 $font-size-h3: 1.17em;
 
 $searchbox-bg: #7ACAE4;
@@ -134,4 +135,8 @@ footer {
   border-top: 1px solid #ccc;
   padding: 20px 0px;
   margin-top: 60px;
+}
+
+.faq-link {
+  margin-right: 20px;
 }

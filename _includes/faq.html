@@ -5,10 +5,13 @@
     </div>
   </div>
   <div class="row">    
+    <div class="col-md-12">
     {% for faq in site.data.faqs limit:8 %}
-      <div class="col-md-3">
-      <a href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a>
-      </div>
-    {% endfor %}    
+    {% if faq.homepage %}      
+      <a class="faq-link" href="/categories/faq.html#{{ faq.id }}"><span>{{ faq.question }}</span></a> 
+    {% endif %}
+    {% endfor %} 
+    <a href="/categories/faq.html">查看更多</a>
+    </div>
   </div>        
 </div>
