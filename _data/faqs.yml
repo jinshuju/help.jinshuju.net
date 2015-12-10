@@ -1,5 +1,5 @@
 - id: account-arrearage
-  question: 帐户欠费这么办？
+  question: 帐户欠费怎么办？
   homepage: true
   answer: >
     对于金数据的专业版用户，经常会遇到帐户为负数的情况。   
