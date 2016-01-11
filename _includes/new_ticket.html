@@ -1,0 +1,112 @@
+<h1 class="text-center">联系客服</h1>
+<p class="text-center">功能不会使用？没关系，联系客服吧！</p>
+
+
+<form class="form-horizontal" id="new_ticket" enctype="multipart/form-data" action="http://quickbiz.inhox.com/tickets.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="form-group">
+    <label class="col-xs-2 control-label" for="ticket_category">反馈类型 *</label>
+    <div class="col-xs-10">
+      <select class="form-control" require="true" name="ticket[category]" id="ticket_category"><option value="使用帮助">使用帮助</option>
+<option value="账户和计费问题">账户和计费问题</option>
+<option value="发现软件Bug">发现软件Bug</option>
+<option value="提个建议">提个建议</option>
+<option value="其他">其他</option></select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label" for="ticket_email">您的邮箱 *</label>
+    <div class="col-sm-10">
+      <input class="form-control" required="required" placeholder="you@email.com" type="email" name="ticket[email]" id="ticket_email" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label" for="ticket_subject">反馈标题 *</label>
+    <div class="col-sm-10">
+      <input class="form-control" required="required" placeholder="简要描述您需要联系的问题" type="text" name="ticket[subject]" id="ticket_subject" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label" for="ticket_body">详细描述</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="8" placeholder="您的描述越具体清楚，就越有助于更好的为您服务" name="ticket[body]" id="ticket_body">
+</textarea>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="col-sm-2 control-label" for="ticket_body">附件</label>
+    <div class="col-sm-10">
+      <input onchange="validateFiles(this);" data-max-file-size="2097152" class="form-control" type="file" name="ticket[attachment]" id="ticket_attachment" />
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" name="commit" value="发送" class="btn btn-primary" />
+    </div>
+  </div>
+</form>
+<script>
+function validateFiles(inputFile) {
+  var maxExceededMessage = "附件过大 (不能超过2MB)";
+  var extErrorMessage = "只能上传图片、PDF或者压缩文档";
+  var allowedExtension = ["jpg", "jpeg", "gif", "png", "pdf", "zip"];
+  
+  var extName;
+  var maxFileSize = $(inputFile).data('max-file-size');
+  var sizeExceeded = false;
+  var extError = false;
+  
+  $.each(inputFile.files, function() {
+    if (this.size && maxFileSize && this.size > parseInt(maxFileSize)) {sizeExceeded=true;};
+    extName = this.name.split('.').pop();
+    if ($.inArray(extName, allowedExtension) == -1) {extError=true;};
+  });
+  if (sizeExceeded) {
+    window.alert(maxExceededMessage);
+    $(inputFile).val('');
+  };
+  
+  if (extError) {
+    window.alert(extErrorMessage);
+    $(inputFile).val('');
+  };
+}
+
+$(document).ready(function() { 
+     // bind 'myForm' and provide a simple callback function 
+     $('#new_ticket').ajaxForm({
+       success: function(){
+         $("#new_ticket").find("input[type=text],input[type=file], textarea").val("")
+         $("#ticket_progress").hide();
+         $("#loading_text").text("感谢提交！我们会在一个工作日内通过发邮件的方式给您及时的回复，请注意查收邮件 " + $("#ticket_email").val() + "。")
+       },
+       beforeSubmit: function() {
+         $("#ticket_progress").show();
+         $("#loading_text").text("请稍后，正在发送……");
+         $('#sending_model').modal("show");
+       }
+     }); 
+}); 
+</script>
+ 
+<div id="sending_model" class="modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">意见反馈</h4>
+      </div>
+      <div class="modal-body">
+        <h2 class="text-center" id="loading_text">请稍后，正在发送……</h2>
+        <div class="progress" id="ticket_progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar"
+          aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+      </div>      
+    </div>
+  </div>
+</div>
