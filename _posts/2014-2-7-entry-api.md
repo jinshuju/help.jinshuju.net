@@ -9,6 +9,8 @@ category: api
 
 目前，数据API仅支持增加数据，不支持修改、删除以及获取数据。想要获取数据，可以使用[数据推送API](http-push.html)。
 
+##### 注意：目前每个API Key只允许100次/每小时的请求频率。超过这个频次请与我们联系： marketing@jinshuju.net 
+
 ### 使用方法
 
 首先确保您有[访问API](api-auth.html)的能力。获得API Key&Secret后，即可通过API提交数据。
