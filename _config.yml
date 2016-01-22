@@ -10,7 +10,7 @@ category_dict:
   form: "表单的编辑与管理"
   publish: "表单的发布与分享"
   data: "数据以及报表"
-  notification: "联系人、短信和邮件提醒"
+  notification: "联系人与推送提醒功能"
   wechat: "微信增强包"
   account: "充值、套餐与增值服务"
   payment: "商品字段和支付"
