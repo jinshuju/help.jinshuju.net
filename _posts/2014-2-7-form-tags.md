@@ -10,46 +10,46 @@ category: form
 ### 创建文件夹
 
 1. 进入表单页面，点击左上方的加号，选择“创建新文件夹”。
-  ![](../images/tags-folder-1.png)
+  ![](/images/tags-folder-1.png)
 
 2. 添加文件夹的名称以及选择颜色和图标，最后点击创建。
-  ![](../images/tags-folder-2.png)  
+  ![](/images/tags-folder-2.png)  
 
 3. 创建成功后，您就可以点击进入这个文件夹，然后在这个文件夹里面创建表单。
-  ![](../images/tags-folder-3.png)  
+  ![](/images/tags-folder-3.png)  
 
 ### 将表单移至文件夹
 
  我们除了直接在文件夹里创建表单，同时您也可以将已经创建好的表单移动到此文件夹。
  
 1. 将鼠标移到需要移动的表单，点击右下角的小齿轮后，选择“移动到”。
-  ![](../images/move-form-folder-1.png)
+  ![](/images/move-form-folder-1.png)
 
 2. 选择需要移至的文件夹。
-  ![](../images/move-form-folder-2.png)
+  ![](/images/move-form-folder-2.png)
 
 ### 编辑文件夹
 
 如果需要编辑文件夹，将鼠标移至需要编辑的文件夹，点击右下角的小齿轮后进行删除或者编辑。 
-  ![](../images/folder-edit.png)
+  ![](/images/folder-edit.png)
 
 ### 为表单添加标签
 
 1. 将光标悬停在想要添加标签的表单上，表单的右下角会出现小齿轮，点击小齿轮，选择“设置标签”。
-  ![](../images/tags-add-1.png)
+  ![](/images/tags-add-1.png)
 
 2. 选择后输入标签名。
-  ![](../images/tags-add-2.png)
+  ![](/images/tags-add-2.png)
 
 ### 为表单修改标签
 
 如果您需要为某个表单修改标签，您可以把鼠标悬停在想要修改标签的表单上，然后点击“设置标签”，接下来就可以在弹出的框中删除已有的标签，删除就可以根据自己的需求选择已有的标签，或者添加新的标签。
-  ![](../images/tags-change.png)
+  ![](/images/tags-change.png)
 
 ### 编辑所有标签
 
 点击标签后面的设置小按钮，您就可以修改已有标签的名称，或者删除某个标签，删除标签后，原有标签下的表单都会移动到“未设置标签”下。
-  ![](../images/tags-edit.png)
+  ![](/images/tags-edit.png)
   
 您也可以通过左边的图标调整标签的排列顺序。
-  ![](../images/tags-move.png)
+  ![](/images/tags-move.png)
