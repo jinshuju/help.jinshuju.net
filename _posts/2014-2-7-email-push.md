@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "自定义邮件推送提醒"
+title:  "自定义邮件推送提醒（给填表者）"
 date:   2014-09-29 12:00:09
 category: notification
 ---
 
-当您的表单有新数据提交时，您可以建立多条邮件推送规则，以邮件的形式将自定义内容发送到指定的邮箱。
+当您的表单有新数据提交时，您可以建立多条邮件推送规则，以邮件的形式将自定义内容发送到指定的邮箱。如果您需要在填表者填写完表单后收到您设置的一条邮件，您可以参考本篇文章。
 
 ###### 短信推送是增值服务，其费用不包含在套餐月费中，[点此了解](http://help.jinshuju.net/articles/plan-price.html)。
 
@@ -17,7 +17,7 @@ category: notification
 2. 点击 **添加邮件提醒**，出现邮件提醒自定义设置页面。
 	![](/images/email-push-index.png)
 
-#### 自定义邮件推送的设置类似于自定义短信推送，所以请[点此查看](sms-push.html#sms-push-condition)。
+#### 自定义邮件推送的设置类似于自定义短信推送，所以请[点此查看](http://help.jinshuju.net/articles/sms-push.html)。
 
 ### 注意事项
 
