@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "自定义邮件推送提醒(给表单创建者)"
+title:  "自定义邮件推送提醒 (给表单创建者)"
 date:   2014-09-29 12:00:09
 category: notification
 ---
